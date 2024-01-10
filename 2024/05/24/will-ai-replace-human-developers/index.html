@@ -10,20 +10,20 @@
     <meta property="og:type" content="article">
 
     
-    <meta property="og:image" content="/img/post-bg-coffee.jpeg">
-    <meta property="twitter:image" content="/img/post-bg-coffee.jpeg" />
+    <meta property="og:image" content="/img/post-bg-unix-linux.jpg">
+    <meta property="twitter:image" content="/img/post-bg-unix-linux.jpg" />
     
 
     
-    <meta name="title" content="Istio Sidecar Auto Injection Mechanism" />
-    <meta property="og:title" content="Istio Sidecar Auto Injection Mechanism" />
-    <meta property="twitter:title" content="Istio Sidecar Auto Injection Mechanism" />
+    <meta name="title" content="Will AI Completely Replace Human Developers?" />
+    <meta property="og:title" content="Will AI Completely Replace Human Developers?" />
+    <meta property="twitter:title" content="Will AI Completely Replace Human Developers?" />
     
 
     
-    <meta name="description" content="Kubernetes 1.9 introduced the Admission Webhook extension mechanism. Through Webhook, developers can flexibly extend the functionality of the Kubernetes API Server, validating or modifying resources when creating them. Istio 0.7 leveraged Kubernetes webhook to implement automatic sidecar injection.">
-    <meta property="og:description" content="Kubernetes 1.9 introduced the Admission Webhook extension mechanism. Through Webhook, developers can flexibly extend the functionality of the Kubernetes API Server, validating or modifying resources when creating them. Istio 0.7 leveraged Kubernetes webhook to implement automatic sidecar injection." />
-    <meta property="twitter:description" content="Kubernetes 1.9 introduced the Admission Webhook extension mechanism. Through Webhook, developers can flexibly extend the functionality of the Kubernetes API Server, validating or modifying resources when creating them. Istio 0.7 leveraged Kubernetes webhook to implement automatic sidecar injection." />
+    <meta name="description" content="The rapid development of artificial intelligence (AI) has left a profound mark on the software development industry. AI code generation tools are emerging, automatically generating code to improve efficiency and reduce costs. However, whether AI will completely replace human developers is still a controversial topic.">
+    <meta property="og:description" content="The rapid development of artificial intelligence (AI) has left a profound mark on the software development industry. AI code generation tools are emerging, automatically generating code to improve efficiency and reduce costs. However, whether AI will completely replace human developers is still a controversial topic." />
+    <meta property="twitter:description" content="The rapid development of artificial intelligence (AI) has left a profound mark on the software development industry. AI code generation tools are emerging, automatically generating code to improve efficiency and reduce costs. However, whether AI will completely replace human developers is still a controversial topic." />
     
 
     
@@ -34,9 +34,9 @@
     <meta name="keyword"  content="NZ Louis, Louis Lu, Louis, Louis&#39; Blog, blog, Web, PaaS, Istio, Kubernetes, Microservice">
     <link rel="shortcut icon" href="/img/l.ico">
 
-    <title>Istio Sidecar Auto Injection Mechanism | NZ Louis&#39; Blog</title>
+    <title>Will AI Completely Replace Human Developers? | NZ Louis&#39; Blog</title>
 
-    <link rel="canonical" href="/2018/05/23/istio-auto-injection-with-webhook/">
+    <link rel="canonical" href="/2024/05/24/will-ai-replace-human-developers/">
 
     
     
@@ -173,7 +173,7 @@ if (!doNotTrack) {
 
 <style type="text/css">
     header.intro-header {
-        background-image: url('/img/post-bg-coffee.jpeg')
+        background-image: url('/img/post-bg-unix-linux.jpg')
     }
 </style>
 
@@ -185,25 +185,29 @@ if (!doNotTrack) {
                 <div class="post-heading">
                     <div class="tags">
                         
-                        <a class="tag" href="/tags/kubernetes" title="Kubernetes">
-                            Kubernetes
+                        <a class="tag" href="/tags/ai" title="ai">
+                            ai
                         </a>
                         
-                        <a class="tag" href="/tags/istio" title="Istio">
-                            Istio
+                        <a class="tag" href="/tags/developer" title="Developer">
+                            Developer
+                        </a>
+                        
+                        <a class="tag" href="/tags/replace-human" title="Replace Human">
+                            Replace Human
                         </a>
                         
                     </div>
-                    <h1>Istio Sidecar Auto Injection Mechanism</h1>
-                    <h2 class="subheading">Analysis of Kubernetes Webhook Extension Mechanism</h2>
+                    <h1>Will AI Completely Replace Human Developers?</h1>
+                    <h2 class="subheading"> A Look at the Future</h2>
                     <span class="meta">
                         
                             Posted by 
                             
-                                Louis Lu
+                                    &#34;Louis Lu&#34;
                              
                             on 
-                            Thursday, January 5, 2023
+                            Wednesday, January 10, 2024
                             
                             
                             
@@ -229,82 +233,63 @@ if (!doNotTrack) {
                 post-container">
 
                 
-                <h2 id="introduction">Introduction</h2>
-<p>Kubernetes 1.9 introduced the Admission Webhook extension mechanism, allowing developers to extend the functionality of the Kubernetes API Server flexibly. This extension occurs during the creation of resources, where the resources can be validated or modified.</p>
-<p>The advantage of using a webhook is that it doesn&rsquo;t require modification and recompilation of the API Server&rsquo;s source code to extend its functionality. The inserted logic is implemented as an independent web process, passed as parameters to Kubernetes, and called back by Kubernetes during its own logic processing.</p>
-<p>Istio 0.7 version utilized the Kubernetes webhook to achieve automatic sidecar injection.</p>
-<h2 id="what-is-admission">What is Admission</h2>
-<p>Admission is a term in Kubernetes, referring to a phase in the resource request process for the Kubernetes API Server. As shown in the diagram below, when the API Server receives a resource creation request, it undergoes authentication, authorization, Admission processing, and finally, the resource is saved to etcd.
-
-  <img src="/img/2018-4-25-istio-auto-injection-with-webhook/admission-phase.png" alt="">
-
-</p>
-<p>In Admission, there are two crucial phases, Mutation and Validation, with the following logic executed in these phases:</p>
+                <h2 id="abstract">Abstract</h2>
+<p>The rapid development of artificial intelligence (AI) has left a profound mark on the software development industry. AI code generation tools are emerging, automatically generating code to improve efficiency and reduce costs. However, whether AI will completely replace human developers is still a controversial topic.</p>
+<p>Should developers be worried about being replaced by AI?**</p>
+<p>This question has been the focus of discussion for some time. Some people believe that AI will eventually achieve full automation of software development, putting developers at risk of unemployment. However, others believe that AI is just a form of developer tool, and human developers will continue to play an irreplaceable role in software development.</p>
+<h2 id="five-levels-of-self-driving-cars">Five levels of self-driving cars</h2>
+<p>To better understand the role of AI in software development, we can compare it to the five levels of self-driving cars. The five levels of self-driving cars are classified according to their ability to autonomously perform driving tasks.</p>
 <ul>
-<li>
-<p>Mutation</p>
-<p>Mutation, as the name suggests, allows modifications to the request content.</p>
-</li>
-<li>
-<p>Validation</p>
-<p>In the Validation phase, modifying the request content is not allowed, but based on the content, the decision to proceed or reject the request can be made.</p>
-</li>
+<li><strong>Level 0: No automation:</strong> At this level, the driver is in complete control of the vehicle.</li>
+<li><strong>Level 1: Driver assistance:</strong> At this level, the vehicle can perform certain specific tasks, such as cruise control or lane keeping, but the driver still needs to maintain control and supervision of the vehicle.</li>
+<li><strong>Level 2: Partial automation:</strong> At this level, the vehicle can simultaneously perform multiple automated tasks, such as cruise control and lane keeping. The driver still needs to maintain control and supervision of the vehicle, but in some cases, the system may allow for short periods of unmanned driving.</li>
+<li><strong>Level 3: Conditional automation:</strong> At this level, the vehicle can perform all driving tasks in certain conditions, while the driver can choose to release control of the vehicle. However, the driver needs to be ready to intervene at any time in response to system requests.</li>
+<li><strong>Level 4: High automation:</strong> At this level, the vehicle is capable of fully autonomous driving in specific environments, without driver intervention.</li>
+<li><strong>Level 5: Full automation:</strong> At this level, the vehicle is capable of fully performing all driving tasks in any condition, without human drivers.</li>
 </ul>
-<h2 id="admission-webhook">Admission Webhook</h2>
-<hr>
-<p>Through the Admission webhook, you can add both Mutation and Validation types of webhook plugins. These plugins, along with Kubernetes&rsquo; precompiled Admission plugins, share the same capabilities. Possible use cases include:</p>
+<h2 id="five-levels-of-ai-ization-of-software-development">Five levels of AI-ization of software development</h2>
+<p>We can compare the role of AI in software development to the five levels of self-driving cars.</p>
 <ul>
-<li>Modifying resources, e.g., Istio uses the Admin Webhook to add Envoy sidecar containers to Pod resources.</li>
-<li>Custom validation logic, e.g., imposing special requirements on resource names or validating the legitimacy of custom resources.</li>
+<li><strong>Level 0: No automation:</strong> At this level, developers are fully responsible for coding and development, with no AI involvement.</li>
+<li><strong>Level 1: Code generation assistance:</strong> At this level, AI provides code snippets generation at some basic levels, such as basic functions and modules, but the overall structure and logic of the application are still dominated by humans.</li>
+<li><strong>Level 2: Method/function level code generation:</strong> At this level, AI can generate method or function level code to implement some specific tasks. Developers are still responsible for the overall architecture and combining these functions to complete the application.</li>
+<li><strong>Level 3: Component level code generation:</strong> At this level, AI can generate more complex code components, such as generating components with reference code and test cases. However, in the overall application architecture and more complex logic, human intervention may still be required.</li>
+<li><strong>Level 4: Full front-end and back-end code generation:</strong> At this level, AI can generate front-end and back-end related code, and can perform simple debugging and testing. In the overall architecture, AI can make some decisions, but in complex architectures and special cases, human developer assistance may be required.</li>
+<li><strong>Level 5: Full automation:</strong> At this level, AI is fully responsible for generating all levels of commercial code, including front-end, back-end, database, etc. It can handle complex logic, architectural decisions, and special cases without human developer intervention.</li>
 </ul>
-<h2 id="automatically-injecting-istio-sidecar-using-webhook">Automatically Injecting Istio Sidecar Using Webhook</h2>
-<hr>
-<h3 id="kubernetes-version-requirements">Kubernetes Version Requirements</h3>
-<p>Webhook support requires Kubernetes 1.9 or higher. Confirm that the kube-apiserver&rsquo;s Admission webhook feature is enabled using the following command:</p>
-<pre tabindex="0"><code>kubectl api-versions | grep admissionregistration
+<h2 id="current-ai-capabilities">Current AI capabilities</h2>
+<p>With the widespread use of tools such as ChatGPT, Bard, and Bing AI, many people have found that they have strong code-generation capabilities, and can even directly generate answers to questions in the LeetCode database in multiple programming languages. Therefore, many developers worry about their jobs being replaced.</p>
+<h2 id="comparing-development-with-self-driving-car-difficulty">Comparing development with self-driving car difficulty</h2>
+<p>Autonomous driving and software development are both complex tasks that require AI to help improve efficiency and quality. However, these two tasks have significant differences in difficulty.</p>
+<p>The difficulty of autonomous driving lies mainly in the need to process complex environmental information and make quick decisions. AI needs to be able to understand the surrounding roads, traffic conditions, pedestrians, and other vehicles, and make the right judgments in an instant.</p>
+<p>Software development is more difficult, mainly in the following aspects:</p>
+<ul>
+<li><strong>Requirement understanding:</strong> Software development needs to understand user requirements and translate them into specific functions and implementation methods. This is very difficult for complex requirements.</li>
+<li><strong>Design and architecture:</strong> Software development needs to design and architect a reasonable system to meet user needs. This requires developers to have a wealth of experience and knowledge.</li>
+<li><strong>Code writing:</strong> Software development needs to write correct, efficient, and maintainable code. This requires developers to have good programming skills and experience.</li>
+<li><strong>Testing and debugging:</strong> Software development needs to test and debug the code to ensure that it meets requirements and has no errors or vulnerabilities. This requires developers to have patience and attention to detail.</li>
+</ul>
+<p>Therefore, I believe that software development is much more difficult than autonomous driving. Even if AI can reach Level 5, it is impossible to completely replace human developers.</p>
+<h2 id="my-opinion">My opinion</h2>
+<p>I believe that the current AI code generation capabilities are far from reaching the level of replacing human engineers. AI faces some challenges when generating code:</p>
+<ul>
+<li><strong>Understanding requirements:</strong> AI needs to be able to understand the developer&rsquo;s requirements and generate code that meets the requirements. This is very difficult for complex requirements.</li>
+<li><strong>Generating high-quality code:</strong> AI-generated code may contain errors or vulnerabilities. Human developers need to review and test the generated code.</li>
+<li><strong>Adapting to changes:</strong> Software development is a constantly changing field. AI needs to be able to adapt to new technologies and new requirements.</li>
+</ul>
+<p>Therefore, I believe that AI will not completely replace human developers in the short term. AI will be used as a tool for developers to help them improve their efficiency and quality.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>In conclusion, I believe that it will be a long time before AI can reach the level of Level 5 automation in development. Human developers will still play an important role in software development.</p>
+<h2 id="future-trends">Future trends</h2>
+<p>In the future, software development will be a field where human developers and AI work together. Human developers will use AI&rsquo;s strengths to improve their efficiency and quality, and focus more on innovation.</p>
+<p>As AI technology continues to develop, AI&rsquo;s code generation capabilities may gradually improve. However, even if AI can reach Level 5, it is impossible to completely replace human developers. Human developers will still need to play an important role in the following areas:</p>
+<ul>
+<li><strong>Requirement understanding:</strong> Human developers can understand complex requirements and translate them into a form that AI can understand.</li>
+<li><strong>Code review:</strong> Human developers need to review AI-generated code to ensure that it meets requirements and has no errors or vulnerabilities.</li>
+<li><strong>Innovation:</strong> Human developers can continue to innovate and create new software and technologies.</li>
+</ul>
+<p>Therefore, I believe that the future of software development will be a field where human developers and AI work together. Human developers will use AI&rsquo;s strengths to improve their efficiency and quality, and focus more on innovation.</p>
 
-admissionregistration.k8s.io/v1beta1
-</code></pre><h3 id="generate-key-and-certificate-for-sidecar-injection-webhook">Generate Key and Certificate for Sidecar Injection Webhook</h3>
-<p>Webhook uses digital certificates for authentication with kube-apiserver. Therefore, you need to generate a key pair using a tool and apply for a digital certificate from Istio CA.</p>
-<pre tabindex="0"><code>./install/kubernetes/webhook-create-signed-cert.sh /
-    --service istio-sidecar-injector /
-    --namespace istio-system /
-    --secret sidecar-injector-certs
-</code></pre><h3 id="configure-the-generated-digital-certificate-in-the-webhook">Configure the Generated Digital Certificate in the Webhook</h3>
-<pre tabindex="0"><code>cat install/kubernetes/istio-sidecar-injector.yaml | /
-     ./install/kubernetes/webhook-patch-ca-bundle.sh &gt; /
-     install/kubernetes/istio-sidecar-injector-with-ca-bundle.yaml
-</code></pre><h3 id="create-sidecar-injection-configmap">Create Sidecar Injection ConfigMap</h3>
-<pre tabindex="0"><code>kubectl apply -f install/kubernetes/istio-sidecar-injector-configmap-release.yaml
-</code></pre><h3 id="deploy-sidecar-injection-webhook">Deploy Sidecar Injection Webhook</h3>
-<pre tabindex="0"><code>kubectl apply -f install/kubernetes/istio-sidecar-injector-with-ca-bundle.yaml
-</code></pre><p>Check the deployed webhook injector using the following command:</p>
-<pre tabindex="0"><code>kubectl -n istio-system get deployment -listio=sidecar-injector
-Copy
-NAME                     DESIRED   CURRENT   UP-TO-DATE   AVAILABLE   AGE
-istio-sidecar-injector   1         1         1            1           1d
-```
-
-### Enable Automatic Sidecar Injection for the Namespace
-
-```
-kubectl label namespace default istio-injection=enabled
-
-kubectl get namespace -L istio-injection
-
-NAME           STATUS    AGE       ISTIO-INJECTION
-default        Active    1h        enabled
-istio-system   Active    1h
-kube-public    Active    1h
-kube-system    Active    1h
-```
-
-```
-
-###References
-- [Extensible Admission is Beta](https://kubernetes.io/blog/2018/01/extensible-admission-is-beta)
-- [Installing the Istio Sidecar](https://istio.io/docs/setup/kubernetes/sidecar-injection.html)
-</code></pre>
 
                 
 
@@ -313,15 +298,10 @@ kube-system    Active    1h
                 <ul class="pager">
                     
                     <li class="previous">
-                        <a href="/post/2024-01-06-set_up_my_ubuntu_desktop/" data-toggle="tooltip" data-placement="top" title="">&larr;
+                        <a href="/2018/05/23/istio-auto-injection-with-webhook/" data-toggle="tooltip" data-placement="top" title="Istio Sidecar Auto Injection Mechanism">&larr;
                             Previous Post</a>
                     </li>
                     
-                    
-                    <li class="next">
-                        <a href="/2024/05/24/will-ai-replace-human-developers/" data-toggle="tooltip" data-placement="top" title="Will AI Completely Replace Human Developers?">Next
-                            Post &rarr;</a>
-                    </li>
                     
                 </ul>
                 
