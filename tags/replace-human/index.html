@@ -15,9 +15,9 @@
     
 
     
-    <meta name="title" content="" />
-    <meta property="og:title" content="" />
-    <meta property="twitter:title" content="" />
+    <meta name="title" content="Replace Human" />
+    <meta property="og:title" content="Replace Human" />
+    <meta property="twitter:title" content="Replace Human" />
     
 
     
@@ -34,9 +34,9 @@
     <meta name="keyword"  content="NZ Louis, Louis Lu, Louis, Louis&#39; Blog, blog, Web, PaaS, Istio, Kubernetes, Microservice">
     <link rel="shortcut icon" href="/img/l.ico">
 
-    <title>Searches | NZ Louis&#39; Blog</title>
+    <title>Replace Human | NZ Louis&#39; Blog</title>
 
-    <link rel="canonical" href="/search/">
+    <link rel="canonical" href="/tags/replace-human/">
 
     
     
@@ -186,7 +186,8 @@ if (!doNotTrack) {
 
 
 
-<div class="container">
+  
+<div data-pagefind-ignore="all" class="container">
     <div class="row">
         
         
@@ -197,117 +198,42 @@ if (!doNotTrack) {
             col-xs-12
             post-container
         ">
-        
             
-<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment.min.js"></script>
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.css">
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch-theme-algolia.min.css">
+<div data-pagefind-ignore="all">
 
-<div id="search-searchbar"></div>
- <div class="post-list" id="search-hits">
- </div>
-
-<script>
-const search = instantsearch({
-  appId: '',
-  indexName: '',
-  apiKey: ''
-});
-
-const hitTemplate = function(hit) {
-
-
-  let date = '';
-  if (hit.date) {
-    date = moment.unix(hit.date).format('MMM D, YYYY');
-  }
-  let url = `${hit.url}#${hit.anchor}`;
-  const title = hit._highlightResult.title.value;
-
-  let breadcrumbs = '';
-  if (hit._highlightResult.headings) {
-    breadcrumbs = hit._highlightResult.headings.map(match => {
-      return `<span class="post-breadcrumb">${match.value}</span>`
-    }).join(' > ')
-  }
-
-  let content = "" ; 
-  if (hit._highlightResult.content){
-      content = hit._highlightResult.content.value;
-  }
-  else{
-      content = hit.summary;
-  }
-
-
-  return `
-    <div class="post-item">
-      <span class="post-meta">${date}</span>
-      <h2><a class="post-link" href="${url}">${title}</a></h2>
-      <a href="${url}" class="post-breadcrumbs">${breadcrumbs}</a>
-      <div class="post-snippet">${content}</div>
-    </div>
-  `;
-}
-
-
-search.addWidget(
-  instantsearch.widgets.searchBox({
-    container: '#search-searchbar',
-    placeholder: 'Search into posts...',
-    poweredBy: true 
-  })
-);
-
-search.addWidget(
-  instantsearch.widgets.hits({
-    container: '#search-hits',
-    templates: {
-      item: hitTemplate
-    }
-  })
-);
-
-search.start();
-</script>
-
-<style>
-.ais-search-box {
-  max-width: 100%;
-  margin-bottom: 15px;
-}
-.post-item {
-  margin-bottom: 30px;
-}
-.post-link .ais-Highlight {
-  color: #111;
-  font-style: normal;
-  text-decoration: underline;
-}
-.post-breadcrumbs {
-  color: #424242;
-  display: block;
-}
-.post-breadcrumb {
-  font-size: 18px;
-  color: #424242;
-}
-.post-breadcrumb .ais-Highlight {
-  font-weight: bold;
-  font-style: normal;
-}
-.post-snippet .ais-Highlight {
-  color: #2a7ae2;
-  font-style: normal;
-  font-weight: bold;
-}
-.post-snippet img {
-  display: none;
-}
-</style>
-
+<div class="post-preview">
+    <a href="https://blog.nzlouis.com/2024/05/24/will-ai-replace-human-developers/">
+        <h2 class="post-title">
+            Will AI Completely Replace Human Developers?
+        </h2>
+	
+        <h3 class="post-subtitle">
+             A Look at the Future
+        </h3>
+	
+        <div class="post-content-preview">
+	
+            The rapid development of artificial intelligence (AI) has left a profound mark on the software development industry. AI code generation tools are emerging, automatically generating code to improve efficiency and reduce costs. However, whether AI will completely replace human developers is still a controversial topic.
         
+        </div>
+    </a>
+    <p class="post-meta">
+    
+        Posted by     &#34;Louis Lu&#34; on Wednesday, January 10, 2024
+        
+        
+    
+    </p>
+
+</div>
+<hr>
+
+</div>
+
+            
+
+
+
        	</div>
         
 
@@ -418,6 +344,8 @@ search.start();
 
 	</div>
 </div>
+
+
 
 
 

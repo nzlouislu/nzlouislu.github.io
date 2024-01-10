@@ -6,20 +6,27 @@
     <description>Recent content in Tags on NZ Louis&#39; Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Jan 2023 11:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.nzlouis.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Tips</title>
-      <link>https://blog.nzlouis.com/tags/tips/</link>
-      <pubDate>Thu, 05 Jan 2023 11:00:00 +0000</pubDate>
-      <guid>https://blog.nzlouis.com/tags/tips/</guid>
+      <title>ai</title>
+      <link>https://blog.nzlouis.com/tags/ai/</link>
+      <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/tags/ai/</guid>
       <description></description>
     </item>
     <item>
-      <title>Vim</title>
-      <link>https://blog.nzlouis.com/tags/vim/</link>
-      <pubDate>Thu, 05 Jan 2023 11:00:00 +0000</pubDate>
-      <guid>https://blog.nzlouis.com/tags/vim/</guid>
+      <title>Developer</title>
+      <link>https://blog.nzlouis.com/tags/developer/</link>
+      <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/tags/developer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Replace Human</title>
+      <link>https://blog.nzlouis.com/tags/replace-human/</link>
+      <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/tags/replace-human/</guid>
       <description></description>
     </item>
     <item>
@@ -34,13 +41,6 @@
       <link>https://blog.nzlouis.com/tags/kubernetes/</link>
       <pubDate>Thu, 05 Jan 2023 00:00:00 +0000</pubDate>
       <guid>https://blog.nzlouis.com/tags/kubernetes/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>ubuntu</title>
-      <link>https://blog.nzlouis.com/tags/ubuntu/</link>
-      <pubDate>Thu, 05 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.nzlouis.com/tags/ubuntu/</guid>
       <description></description>
     </item>
   </channel>
