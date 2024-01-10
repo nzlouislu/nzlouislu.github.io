@@ -10,10 +10,10 @@
     <atom:link href="https://blog.nzlouis.com/tags/developer/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Will AI Completely Replace Human Developers?</title>
-      <link>https://blog.nzlouis.com/2024/05/24/will-ai-replace-human-developers/</link>
+      <link>https://blog.nzlouis.com/2024/01/10/will-ai-replace-human-developers/</link>
       <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://blog.nzlouis.com/2024/05/24/will-ai-replace-human-developers/</guid>
-      <description>Abstract The rapid development of artificial intelligence (AI) has left a profound mark on the software development industry. AI code generation tools are emerging, automatically generating code to improve efficiency and reduce costs. However, whether AI will completely replace human developers is still a controversial topic.&#xA;Should developers be worried about being replaced by AI?**&#xA;This question has been the focus of discussion for some time. Some people believe that AI will eventually achieve full automation of software development, putting developers at risk of unemployment.</description>
+      <guid>https://blog.nzlouis.com/2024/01/10/will-ai-replace-human-developers/</guid>
+      <description>Abstract Will AI code robots steal programmers&amp;rsquo; jobs? Not so fast. This article proposes a novel &amp;ldquo;Five Levels of AI-ization&amp;rdquo; framework inspired by self-driving cars, predicting AI&amp;rsquo;s potential impact on software development. Expect AI to become a powerful partner, automating routine tasks and boosting efficiency, not replacing human creativity and strategic thinking. Dive in to explore the future of AI and developers, working together to build the next generation of software.</description>
     </item>
   </channel>
 </rss>

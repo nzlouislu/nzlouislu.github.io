@@ -10,20 +10,20 @@
     <meta property="og:type" content="article">
 
     
-    <meta property="og:image" content="https://blog.nzlouis.com/img/duck-pack.jpg">
-    <meta property="twitter:image" content="https://blog.nzlouis.com/img/duck-pack.jpg" />
+    <meta property="og:image" content="/img/post-bg-unix-linux.jpg">
+    <meta property="twitter:image" content="/img/post-bg-unix-linux.jpg" />
     
 
     
-    <meta name="title" content="" />
-    <meta property="og:title" content="" />
-    <meta property="twitter:title" content="" />
+    <meta name="title" content="Everything about Setting Up My Ubuntu Desktop" />
+    <meta property="og:title" content="Everything about Setting Up My Ubuntu Desktop" />
+    <meta property="twitter:title" content="Everything about Setting Up My Ubuntu Desktop" />
     
 
     
-    <meta name="description" content="NZ Louis，Software Engineer，Full-stack，Life Explorer | Here is Louis&#39; blog, where we discover a bigger world together.">
-    <meta property="og:description" content="NZ Louis，Software Engineer，Full-stack，Life Explorer | Here is Louis&#39; blog, where we discover a bigger world together." />
-    <meta property="twitter:description" content="NZ Louis，Software Engineer，Full-stack，Life Explorer | Here is Louis&#39; blog, where we discover a bigger world together." />
+    <meta name="description" content="Everything about setting up my own ubuntu desktop, it&#39;s just a Note in case I need it later">
+    <meta property="og:description" content="Everything about setting up my own ubuntu desktop, it&#39;s just a Note in case I need it later" />
+    <meta property="twitter:description" content="Everything about setting up my own ubuntu desktop, it&#39;s just a Note in case I need it later" />
     
 
     
@@ -34,9 +34,9 @@
     <meta name="keyword"  content="NZ Louis, Louis Lu, Louis, Louis&#39; Blog, blog, Web, PaaS, Istio, Kubernetes, Microservice">
     <link rel="shortcut icon" href="/img/l.ico">
 
-    <title>Tags | NZ Louis&#39; Blog</title>
+    <title>Everything about Setting Up My Ubuntu Desktop | NZ Louis&#39; Blog</title>
 
-    <link rel="canonical" href="/tags/">
+    <link rel="canonical" href="/2024/01/05/set_up_my_ubuntu_desktop/">
 
     
     
@@ -174,14 +174,45 @@ if (!doNotTrack) {
 
 
 
-<header class="intro-header" style="background-image: url('/img/duck-pack.jpg')">
+
+<style type="text/css">
+    header.intro-header {
+        background-image: url('/img/post-bg-unix-linux.jpg')
+    }
+</style>
+
+<header class="intro-header" >
+
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
-                <div class="site-heading">
-                    <h1>NZ Louis&#39; Blog </h1>
-                    
-		    <span class="subheading">If you never try, you will never know.</span>
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/microservice" title="Microservice">
+                            Microservice
+                        </a>
+                        
+                        <a class="tag" href="/tags/security" title="Security">
+                            Security
+                        </a>
+                        
+                    </div>
+                    <h1>Everything about Setting Up My Ubuntu Desktop</h1>
+                    <h2 class="subheading"></h2>
+                    <span class="meta">
+                        
+                            Posted by 
+                            
+                                    &#34;Louis Lu&#34;
+                             
+                            on 
+                            Friday, January 5, 2024
+                            
+                            
+                            
+                            
+                    </span>
                 </div>
             </div>
         </div>
@@ -194,13 +225,72 @@ if (!doNotTrack) {
 <article>
     <div class="container">
         <div class="row">
+
             
             <div class="
                 col-lg-8 col-lg-offset-2
                 col-md-10 col-md-offset-1
                 post-container">
 
-         	
+                
+                <h2 id="generate-ssh-key-pair">Generate SSH Key Pair</h2>
+<pre tabindex="0"><code>ssh-keygen -C &#34;nzlouis.com@gmail.com&#34;
+</code></pre><h2 id="shadowsocks">Shadowsocks</h2>
+<p>Install shadowsokcs</p>
+<pre tabindex="0"><code>sudo apt-get install python3-pip
+
+sudo pip3 install shadowsocks
+</code></pre><p>Create config at <code>config/shadowsocks.json</code>, with the following content:</p>
+<pre tabindex="0"><code>{
+	&#34;server&#34;:&#34;remote-shadowsocks-server-ip-addr&#34;,
+	&#34;server_port&#34;:443,
+	&#34;local_address&#34;:&#34;127.0.0.1&#34;,
+	&#34;local_port&#34;:1080,
+	&#34;password&#34;:&#34;your-passwd&#34;,
+	&#34;timeout&#34;:300,
+	&#34;method&#34;:&#34;aes-256-cfb&#34;,
+	&#34;fast_open&#34;:false,
+	&#34;workers&#34;:1
+}
+</code></pre><p>Start a local socks proxy</p>
+<pre tabindex="0"><code>sudo sslocal -c config/shadowsocks.json -d start
+</code></pre><p>In case there is an openssl error, modify shadowsocks source file.</p>
+<pre tabindex="0"><code>sudo vi /usr/local/lib/python3.6/dist-packages/shadowsocks/crypto/openssl.py
+
+:%s/cleanup/reset/gc
+</code></pre><p>Convert shadowsocks socks proxy to http proxy</p>
+<pre tabindex="0"><code>sudo apt-get install polipo
+
+echo &#34;socksParentProxy = localhost:1080&#34; | sudo tee -a /etc/polipo/config
+sudo service polipo restart
+</code></pre><p>Http proxy now is available at port 8123</p>
+<h1 id="set-bing-wallpaper-as-desktop-background">Set bing wallpaper as desktop background</h1>
+<pre tabindex="0"><code>sudo add-apt-repository ppa:whizzzkid/bingwallpaper
+sudo apt-get update
+sudo apt-get install bingwallpaper
+</code></pre><h1 id="use-vim-mode-in-bash">Use vim mode in bash</h1>
+<pre tabindex="0"><code>echo &#39;set -o vi&#39;&gt;&gt; ~/.bashrc
+</code></pre>
+
+                
+
+                
+                <hr>
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2024/01/05/istio-auto-injection-with-webhook/" data-toggle="tooltip" data-placement="top" title="Istio Sidecar Auto Injection Mechanism">&larr;
+                            Previous Post</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/2024/01/05/vim-tips/" data-toggle="tooltip" data-placement="top" title="Vim Tips">Next
+                            Post &rarr;</a>
+                    </li>
+                    
+                </ul>
+                
                 
 
 
@@ -228,8 +318,25 @@ if (!doNotTrack) {
 
 
 
-
             </div>
+
+            
+            
+            <div class="
+                col-lg-2 col-lg-offset-0
+                visible-lg-block
+                sidebar-container
+                catalog-container">
+                <div class="side-catalog">
+                    <hr class="hidden-sm hidden-xs">
+                    <h5>
+                        <a class="catalog-toggle" href="#">CATALOG</a>
+                    </h5>
+                    <ul class="catalog-body"></ul>
+                </div>
+            </div>
+            
+
             
             <div class="
                 col-lg-8 col-lg-offset-2
@@ -254,7 +361,7 @@ if (!doNotTrack) {
                         
                         
                         <a href="/tags/microservice" title="microservice">
-                        microservice
+                            microservice
                         </a>
                         
                         
@@ -262,7 +369,7 @@ if (!doNotTrack) {
                         
                         
                         <a href="/tags/security" title="security">
-                        security
+                            security
                         </a>
                         
                         

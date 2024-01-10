@@ -10,20 +10,20 @@
     <meta property="og:type" content="article">
 
     
-    <meta property="og:image" content="https://blog.nzlouis.com/img/duck-pack.jpg">
-    <meta property="twitter:image" content="https://blog.nzlouis.com/img/duck-pack.jpg" />
+    <meta property="og:image" content="/img/post-bg-coffee.jpeg">
+    <meta property="twitter:image" content="/img/post-bg-coffee.jpeg" />
     
 
     
-    <meta name="title" content="" />
-    <meta property="og:title" content="" />
-    <meta property="twitter:title" content="" />
+    <meta name="title" content="Vim Tips" />
+    <meta property="og:title" content="Vim Tips" />
+    <meta property="twitter:title" content="Vim Tips" />
     
 
     
-    <meta name="description" content="NZ Louis，Software Engineer，Full-stack，Life Explorer | Here is Louis&#39; blog, where we discover a bigger world together.">
-    <meta property="og:description" content="NZ Louis，Software Engineer，Full-stack，Life Explorer | Here is Louis&#39; blog, where we discover a bigger world together." />
-    <meta property="twitter:description" content="NZ Louis，Software Engineer，Full-stack，Life Explorer | Here is Louis&#39; blog, where we discover a bigger world together." />
+    <meta name="description" content="Vim Tips and tricks">
+    <meta property="og:description" content="Vim Tips and tricks" />
+    <meta property="twitter:description" content="Vim Tips and tricks" />
     
 
     
@@ -34,9 +34,9 @@
     <meta name="keyword"  content="NZ Louis, Louis Lu, Louis, Louis&#39; Blog, blog, Web, PaaS, Istio, Kubernetes, Microservice">
     <link rel="shortcut icon" href="/img/l.ico">
 
-    <title>Tags | NZ Louis&#39; Blog</title>
+    <title>Vim Tips | NZ Louis&#39; Blog</title>
 
-    <link rel="canonical" href="/tags/">
+    <link rel="canonical" href="/2024/01/05/vim-tips/">
 
     
     
@@ -174,14 +174,45 @@ if (!doNotTrack) {
 
 
 
-<header class="intro-header" style="background-image: url('/img/duck-pack.jpg')">
+
+<style type="text/css">
+    header.intro-header {
+        background-image: url('/img/post-bg-coffee.jpeg')
+    }
+</style>
+
+<header class="intro-header" >
+
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
-                <div class="site-heading">
-                    <h1>NZ Louis&#39; Blog </h1>
-                    
-		    <span class="subheading">If you never try, you will never know.</span>
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/tips" title="Tips">
+                            Tips
+                        </a>
+                        
+                        <a class="tag" href="/tags/vim" title="Vim">
+                            Vim
+                        </a>
+                        
+                    </div>
+                    <h1>Vim Tips</h1>
+                    <h2 class="subheading"></h2>
+                    <span class="meta">
+                        
+                            Posted by 
+                            
+                                Louis Lu
+                             
+                            on 
+                            Friday, January 5, 2024
+                            
+                            
+                            
+                            
+                    </span>
                 </div>
             </div>
         </div>
@@ -194,13 +225,75 @@ if (!doNotTrack) {
 <article>
     <div class="container">
         <div class="row">
+
             
             <div class="
                 col-lg-8 col-lg-offset-2
                 col-md-10 col-md-offset-1
                 post-container">
 
-         	
+                
+                <h2 id="vim-graphical-cheat-sheet">vim graphical cheat sheet</h2>
+<p>
+  <img src="//img/2018-02-09-vim-tips/vi-vim-cheat-sheet.svg" alt="">
+
+</p>
+<h2 id="vim-jumps">Vim Jumps</h2>
+<ul>
+<li>^ — Move to start of line</li>
+<li>$ — Move to end of line</li>
+<li>b — Move back a word</li>
+<li>w — Move forward a word</li>
+<li>e — Move to the end of the next word</li>
+<li>Ctrl-o and Ctrl-i to go to the previous/next location you jumped to</li>
+<li>``(two backticks) jump back to where you were</li>
+<li>gi go back to the last place you inserted a text and enter insert mode</li>
+</ul>
+<h2 id="vim-navigations">Vim Navigations</h2>
+<ul>
+<li>{ and } jump paragraph back and forth</li>
+<li>Ctrl-F/B move one screen back and forth</li>
+<li>Search the word under cursor, then n/p to jump to next/previous</li>
+</ul>
+<h2 id="enable-vim-mode-in-bash">Enable Vim mode in bash</h2>
+<p>vi ~/.inputrc
+set editing-mode vi</p>
+<h2 id="enable-system-clipboard-upport">Enable system clipboard upport</h2>
+<p>See if system clipboard is supported:</p>
+<pre tabindex="0"><code>$ vim --version | grep clipboard
+-clipboard       +iconv           +path_extra      -toolbar
++eval            +mouse_dec       +startuptime     -xterm_clipboard
+</code></pre><p>Rinstall vim as vim-gnome:</p>
+<pre tabindex="0"><code>sudo apt-get install vim-gnome
+</code></pre><p>Select what you want using the mouse - then type to copy to clipboard:</p>
+<pre tabindex="0"><code>&#34;+y
+</code></pre><p>To paste to vim from clipboard type:</p>
+<pre tabindex="0"><code>&#34;+p
+</code></pre><h2 id="others">Others</h2>
+<ul>
+<li>Ex: open the current directory</li>
+<li>set number: show line number</li>
+</ul>
+
+                
+
+                
+                <hr>
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2024/01/05/set_up_my_ubuntu_desktop/" data-toggle="tooltip" data-placement="top" title="Everything about Setting Up My Ubuntu Desktop">&larr;
+                            Previous Post</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/2024/01/10/will-ai-replace-human-developers/" data-toggle="tooltip" data-placement="top" title="Will AI Completely Replace Human Developers?">Next
+                            Post &rarr;</a>
+                    </li>
+                    
+                </ul>
+                
                 
 
 
@@ -228,8 +321,25 @@ if (!doNotTrack) {
 
 
 
-
             </div>
+
+            
+            
+            <div class="
+                col-lg-2 col-lg-offset-0
+                visible-lg-block
+                sidebar-container
+                catalog-container">
+                <div class="side-catalog">
+                    <hr class="hidden-sm hidden-xs">
+                    <h5>
+                        <a class="catalog-toggle" href="#">CATALOG</a>
+                    </h5>
+                    <ul class="catalog-body"></ul>
+                </div>
+            </div>
+            
+
             
             <div class="
                 col-lg-8 col-lg-offset-2
@@ -254,7 +364,7 @@ if (!doNotTrack) {
                         
                         
                         <a href="/tags/microservice" title="microservice">
-                        microservice
+                            microservice
                         </a>
                         
                         
@@ -262,7 +372,7 @@ if (!doNotTrack) {
                         
                         
                         <a href="/tags/security" title="security">
-                        security
+                            security
                         </a>
                         
                         
