@@ -6,8 +6,78 @@
     <description>Recent content in Tags on NZ Louis&#39; Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.nzlouis.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Challenges</title>
+      <link>https://blog.nzlouis.com/tags/challenges/</link>
+      <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/tags/challenges/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Digital Transformation</title>
+      <link>https://blog.nzlouis.com/tags/digital-transformation/</link>
+      <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/tags/digital-transformation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Future Trends</title>
+      <link>https://blog.nzlouis.com/tags/future-trends/</link>
+      <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/tags/future-trends/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Microservices</title>
+      <link>https://blog.nzlouis.com/tags/microservices/</link>
+      <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/tags/microservices/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Online Banking</title>
+      <link>https://blog.nzlouis.com/tags/online-banking/</link>
+      <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/tags/online-banking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Regulation</title>
+      <link>https://blog.nzlouis.com/tags/regulation/</link>
+      <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/tags/regulation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Security</title>
+      <link>https://blog.nzlouis.com/tags/security/</link>
+      <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/tags/security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Technological Solution</title>
+      <link>https://blog.nzlouis.com/tags/technological-solution/</link>
+      <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/tags/technological-solution/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Technology</title>
+      <link>https://blog.nzlouis.com/tags/technology/</link>
+      <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/tags/technology/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>User Experience</title>
+      <link>https://blog.nzlouis.com/tags/user-experience/</link>
+      <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/tags/user-experience/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Childhood Paradise</title>
       <link>https://blog.nzlouis.com/tags/childhood-paradise/</link>
@@ -177,13 +247,6 @@
       <description></description>
     </item>
     <item>
-      <title>Technology Trends</title>
-      <link>https://blog.nzlouis.com/tags/technology-trends/</link>
-      <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://blog.nzlouis.com/tags/technology-trends/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Tips</title>
       <link>https://blog.nzlouis.com/tags/tips/</link>
       <pubDate>Fri, 05 Jan 2024 11:00:00 +0000</pubDate>
@@ -195,34 +258,6 @@
       <link>https://blog.nzlouis.com/tags/vim/</link>
       <pubDate>Fri, 05 Jan 2024 11:00:00 +0000</pubDate>
       <guid>https://blog.nzlouis.com/tags/vim/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Istio</title>
-      <link>https://blog.nzlouis.com/tags/istio/</link>
-      <pubDate>Fri, 05 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://blog.nzlouis.com/tags/istio/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Kubernetes</title>
-      <link>https://blog.nzlouis.com/tags/kubernetes/</link>
-      <pubDate>Fri, 05 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://blog.nzlouis.com/tags/kubernetes/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Microservice</title>
-      <link>https://blog.nzlouis.com/tags/microservice/</link>
-      <pubDate>Fri, 05 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://blog.nzlouis.com/tags/microservice/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Security</title>
-      <link>https://blog.nzlouis.com/tags/security/</link>
-      <pubDate>Fri, 05 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://blog.nzlouis.com/tags/security/</guid>
       <description></description>
     </item>
   </channel>
