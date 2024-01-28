@@ -6,8 +6,15 @@
     <description>Recent content on NZ Louis&#39; Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.nzlouis.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Microservices Architecture Empowering Online Banking Services: Secure, Efficient, and Scalable</title>
+      <link>https://blog.nzlouis.com/2024/01/28/microservices-architecture-empowering-online-banking-services/</link>
+      <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/2024/01/28/microservices-architecture-empowering-online-banking-services/</guid>
+      <description>Microservices Architecture Empowering Online Banking Services: Secure, Efficient, and Scalable 1. What is Online Banking Service? Online banking service is a digital extension of banking operations, allowing customers to perform various banking activities through internet channels (web or mobile applications). Typical functionalities include account management, fund transfers, bill payments, loan applications, investment management, and more. Many banks are increasingly providing services through online channels to better meet customer demands.&#xA;2. Differences Between Online Banking Systems and Other Software Systems 2.</description>
+    </item>
     <item>
       <title>New Zealand: A Paradise for Children</title>
       <link>https://blog.nzlouis.com/2024/01/20/new_zealand_paradise_for_children/</link>
@@ -28,13 +35,6 @@
       <pubDate>Fri, 05 Jan 2024 11:00:00 +0000</pubDate>
       <guid>https://blog.nzlouis.com/2024/01/05/vim-tips/</guid>
       <description>&lt;h2 id=&#34;vim-graphical-cheat-sheet&#34;&gt;vim graphical cheat sheet&lt;/h2&gt;&#xA;&lt;p&gt;&#xD;&#xA;  &lt;img src=&#34;//img/2018-02-09-vim-tips/vi-vim-cheat-sheet.svg&#34; alt=&#34;&#34;&gt;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Istio Sidecar Auto Injection Mechanism</title>
-      <link>https://blog.nzlouis.com/2024/01/05/istio-auto-injection-with-webhook/</link>
-      <pubDate>Fri, 05 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://blog.nzlouis.com/2024/01/05/istio-auto-injection-with-webhook/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Kubernetes 1.9 introduced the Admission Webhook extension mechanism, allowing developers to extend the functionality of the Kubernetes API Server flexibly. This extension occurs during the creation of resources, where the resources can be validated or modified.&lt;/p&gt;&#xA;&lt;p&gt;The advantage of using a webhook is that it doesn&amp;rsquo;t require modification and recompilation of the API Server&amp;rsquo;s source code to extend its functionality. The inserted logic is implemented as an independent web process, passed as parameters to Kubernetes, and called back by Kubernetes during its own logic processing.&lt;/p&gt;&#xA;&lt;p&gt;Istio 0.7 version utilized the Kubernetes webhook to achieve automatic sidecar injection.&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
