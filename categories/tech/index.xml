@@ -6,21 +6,21 @@
     <description>Recent content in Tech on NZ Louis&#39; Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.nzlouis.com/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Microservices Architecture Empowering Online Banking Services: Secure, Efficient, and Scalable</title>
+      <link>https://blog.nzlouis.com/2024/01/28/microservices-architecture-empowering-online-banking-services/</link>
+      <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/2024/01/28/microservices-architecture-empowering-online-banking-services/</guid>
+      <description>Microservices Architecture Empowering Online Banking Services: Secure, Efficient, and Scalable 1. What is Online Banking Service? Online banking service is a digital extension of banking operations, allowing customers to perform various banking activities through internet channels (web or mobile applications). Typical functionalities include account management, fund transfers, bill payments, loan applications, investment management, and more. Many banks are increasingly providing services through online channels to better meet customer demands.&#xA;2. Differences Between Online Banking Systems and Other Software Systems 2.</description>
+    </item>
     <item>
       <title>Will AI Completely Replace Human Developers?</title>
       <link>https://blog.nzlouis.com/2024/01/10/will-ai-replace-human-developers/</link>
       <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://blog.nzlouis.com/2024/01/10/will-ai-replace-human-developers/</guid>
       <description>Abstract Will AI code robots steal programmers&amp;rsquo; jobs? Not so fast. This article proposes a novel &amp;ldquo;Five Levels of AI-ization&amp;rdquo; framework inspired by self-driving cars, predicting AI&amp;rsquo;s potential impact on software development. Expect AI to become a powerful partner, automating routine tasks and boosting efficiency, not replacing human creativity and strategic thinking. Dive in to explore the future of AI and developers, working together to build the next generation of software.</description>
-    </item>
-    <item>
-      <title>Istio Sidecar Auto Injection Mechanism</title>
-      <link>https://blog.nzlouis.com/2024/01/05/istio-auto-injection-with-webhook/</link>
-      <pubDate>Fri, 05 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://blog.nzlouis.com/2024/01/05/istio-auto-injection-with-webhook/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Kubernetes 1.9 introduced the Admission Webhook extension mechanism, allowing developers to extend the functionality of the Kubernetes API Server flexibly. This extension occurs during the creation of resources, where the resources can be validated or modified.&lt;/p&gt;&#xA;&lt;p&gt;The advantage of using a webhook is that it doesn&amp;rsquo;t require modification and recompilation of the API Server&amp;rsquo;s source code to extend its functionality. The inserted logic is implemented as an independent web process, passed as parameters to Kubernetes, and called back by Kubernetes during its own logic processing.&lt;/p&gt;&#xA;&lt;p&gt;Istio 0.7 version utilized the Kubernetes webhook to achieve automatic sidecar injection.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
