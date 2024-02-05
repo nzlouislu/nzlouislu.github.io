@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <meta property="og:site_name" content="NZ Louis&#39; Blog">
+    <meta property="og:type" content="article">
+
+    
+    <meta property="og:image" content="/img/frontEnd.png">
+    <meta property="twitter:image" content="/img/frontEnd.png" />
+    
+
+    
+    <meta name="title" content="Front-End Development in 2024: Trends and Future Directions" />
+    <meta property="og:title" content="Front-End Development in 2024: Trends and Future Directions" />
+    <meta property="twitter:title" content="Front-End Development in 2024: Trends and Future Directions" />
+    
+
+    
+    <meta name="description" content="From fundamental concepts to emerging technology trends, we will explore personal insights and the future landscape of front-end development.">
+    <meta property="og:description" content="From fundamental concepts to emerging technology trends, we will explore personal insights and the future landscape of front-end development." />
+    <meta property="twitter:description" content="From fundamental concepts to emerging technology trends, we will explore personal insights and the future landscape of front-end development." />
+    
+
+    
+    <meta property="twitter:card" content="summary" />
+    
+    
+
+    <meta name="keyword"  content="NZ Louis, Louis Lu, Louis, Louis&#39; Blog, blog, Web, PaaS, Istio, Kubernetes, Microservice">
+    <link rel="shortcut icon" href="/img/l.ico">
+
+    <title>Front-End Development in 2024: Trends and Future Directions | NZ Louis&#39; Blog</title>
+
+    <link rel="canonical" href="/2024/02/04/front-end-development-in-2024-trends-and-future-directions/">
+
+    
+    
+    
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    
+    <link rel="stylesheet" href="/css/hugo-theme-cleanwhite.min.css">
+
+    
+    <link rel="stylesheet" href="/css/zanshang.css">
+
+    
+    <link rel="stylesheet" href="/css/font-awesome.all.min.css">
+
+    
+    
+
+    
+    <script src="/js/jquery.min.js"></script>
+
+    
+    <script src="/js/bootstrap.min.js"></script>
+
+    
+    <script src="/js/hux-blog.min.js"></script>
+
+    
+    <script src="/js/lazysizes.min.js"></script>
+
+    
+    
+
+</head>
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TX6F6B0GN9"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-TX6F6B0GN9', { 'anonymize_ip': false });
+}
+</script>
+
+
+
+
+
+
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+
+    <div class="container-fluid">
+        
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">NZ Louis&#39; Blog</a>
+        </div>
+
+        
+        
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">All Posts</a>
+                    </li>
+                    
+                        
+                        
+                        
+                        
+                        
+                    
+                    <li>
+                        <a href="/categories/tech">Tech</a>
+                    </li>
+                    <li>
+                        <a href="/categories/life">Life</a>
+                    </li>
+		            
+                        <li><a href="/archive/">ARCHIVE</a></li>
+                    
+                    <li>
+                        <a href="https://nzlouis.com" >About</a>
+                    </li>
+		            <li>
+                        <a href="/search"><i class="fa fa-search"></i></a>
+		           </li>
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+    
+</nav>
+<script>
+    
+    
+    
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        
+            $navbar.className = " ";
+            
+            setTimeout(function(){
+                
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+
+
+<style type="text/css">
+    header.intro-header {
+        background-image: url('/img/frontEnd.png')
+    }
+</style>
+
+<header class="intro-header" >
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/front-end-development" title="Front End Development">
+                            Front End Development
+                        </a>
+                        
+                        <a class="tag" href="/tags/web-development-trends" title="Web Development Trends">
+                            Web Development Trends
+                        </a>
+                        
+                        <a class="tag" href="/tags/html" title="HTML">
+                            HTML
+                        </a>
+                        
+                        <a class="tag" href="/tags/technology" title="Technology">
+                            Technology
+                        </a>
+                        
+                        <a class="tag" href="/tags/css" title="CSS">
+                            CSS
+                        </a>
+                        
+                        <a class="tag" href="/tags/javascript" title="JavaScript">
+                            JavaScript
+                        </a>
+                        
+                        <a class="tag" href="/tags/front-end-frameworks" title="Front End Frameworks">
+                            Front End Frameworks
+                        </a>
+                        
+                        <a class="tag" href="/tags/typescript" title="TypeScript">
+                            TypeScript
+                        </a>
+                        
+                        <a class="tag" href="/tags/node.js" title="Node.js">
+                            Node.js
+                        </a>
+                        
+                        <a class="tag" href="/tags/next.js" title="Next.js">
+                            Next.js
+                        </a>
+                        
+                        <a class="tag" href="/tags/react-trends" title="React Trends">
+                            React Trends
+                        </a>
+                        
+                    </div>
+                    <h1>Front-End Development in 2024: Trends and Future Directions</h1>
+                    <h2 class="subheading">Explore the latest trends and technologies shaping the future of front-end development</h2>
+                    <span class="meta">
+                        
+                            Posted by 
+                            
+                                Louis Lu
+                             
+                            on 
+                            Sunday, February 4, 2024
+                            
+                            
+                            
+                            
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+<article>
+    <div class="container">
+        <div class="row">
+
+            
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+                
+                <h1 id="front-end-development-in-2024-trends-and-future-directions">Front-End Development in 2024: Trends and Future Directions</h1>
+<h2 id="1-introduction">1. Introduction</h2>
+<p>Welcome to this blog, where we delve deep into various aspects of front-end development. From fundamental concepts to emerging technology trends, we will explore personal insights and the future landscape of front-end development. Whether you are a beginner or an experienced developer, you will find valuable information here.</p>
+<h2 id="2-overview-of-front-end-development">2. Overview of Front-End Development</h2>
+<h3 id="21-definition">2.1 Definition</h3>
+<p>Front-end development, also known as Web front-end development, refers to the use of technologies such as HTML, CSS, and JavaScript to create the user interface of websites and applications. Front-end developers are responsible for translating design concepts into visual web pages and ensuring their proper rendering and interaction across various browsers and devices.</p>
+<h3 id="22-responsibilities">2.2 Responsibilities</h3>
+<p>The primary responsibilities of front-end developers include:</p>
+<ul>
+<li>
+<p><strong>Building Web Page Structure:</strong> Utilizing HTML to define the structure and content of web pages, incorporating elements such as text, images, and videos, and arranging them in a visually appealing layout.</p>
+</li>
+<li>
+<p><strong>Enhancing Web Page Aesthetics:</strong> Using JavaScript to create dynamic effects and user interactions on web pages, such as button clicks, animated effects, and form validations.</p>
+</li>
+</ul>
+<h3 id="23-differences-from-back-end-development">2.3 Differences from Back-End Development</h3>
+<p>Front-end development and back-end development are the two primary components of web development.</p>
+<ul>
+<li>
+<p><strong>Front-End Development:</strong> Focuses on the user interface, the part that users can directly see and interact with.</p>
+</li>
+<li>
+<p><strong>Back-End Development:</strong> Concentrates on server-side programming and databases, the components hidden from the user.</p>
+</li>
+</ul>
+<p>The main distinctions between the two are outlined below:</p>
+<p>
+  <img src="/img/frontEnd-backEnd.png" alt="">
+
+</p>
+<h2 id="3-brief-history-of-front-end-development">3. Brief History of Front-End Development</h2>
+<h3 id="31-early-development">3.1 Early Development</h3>
+<p>In the early days of the Internet, web pages were primarily static, constructed using HTML and CSS. Web developers predominantly used tools like Dreamweaver for web page creation during this period.</p>
+<h3 id="32-rise-of-dynamic-interactivity">3.2 Rise of Dynamic Interactivity</h3>
+<p>In the late 1990s, the emergence of the JavaScript language brought revolutionary changes to web development. JavaScript enabled the implementation of dynamic effects and user interactions, making web pages more vivid and engaging.</p>
+<ul>
+<li>
+<p>As the complexity of web applications increased, there was a realization of dividing web development into front-end and back-end components.</p>
+</li>
+<li>
+<p>In 1999, Microsoft&rsquo;s IE browser version 5.0 introduced the XMLHttpRequest object, enabling asynchronous communication with servers using JavaScript, opening up new possibilities for web development.</p>
+</li>
+<li>
+<p>The introduction of AJAX technology (Asynchronous JavaScript and XML) in 2005 marked the formal establishment of front-end and back-end separation. AJAX technology allowed web pages to interact with servers without refreshing the entire page, enhancing the responsiveness and user experience of web applications.</p>
+</li>
+</ul>
+<h3 id="34-distinguishing-front-end-from-back-end">3.4 Distinguishing Front-End from Back-End</h3>
+<p>Front-end and back-end development are two essential components of web development that collaborate to build web applications. Distinguishing between front-end and back-end enhances code reusability, development efficiency, robustness, and security.</p>
+<h4 id="why-distinguish-between-front-end-and-back-end">Why Distinguish Between Front-End and Back-End?</h4>
+<p>Front-end development and back-end development are the two primary components of web development.</p>
+<ul>
+<li>
+<p><strong>Enhance Code Reusability:</strong> Developing and maintaining front-end and back-end code separately improves code reusability.</p>
+</li>
+<li>
+<p><strong>Improve Development Efficiency:</strong> Front-end and back-end developers can collaborate, increasing development efficiency.</p>
+</li>
+<li>
+<p><strong>Enhance Code Robustness:</strong> Independently testing front-end and back-end code improves code robustness.</p>
+</li>
+<li>
+<p><strong>Improve Security:</strong> Deploying front-end and back-end code separately enhances security.</p>
+</li>
+</ul>
+<h4 id="when-to-distinguish-between-front-end-and-back-end">When to Distinguish Between Front-End and Back-End?</h4>
+<ul>
+<li>
+<p>When complex user interactions are required for a web application.</p>
+</li>
+<li>
+<p>When extensive data interaction with servers is necessary for a web application.</p>
+</li>
+<li>
+<p>When a web application needs to run on multiple platforms.</p>
+</li>
+</ul>
+<h2 id="4-front-end-development-technologies">4. Front-End Development Technologies</h2>
+<h3 id="html">HTML</h3>
+<p><strong>HTML (Hypertext Markup Language)</strong> is the foundational language for building web pages, responsible for defining the structure and content of web pages. Composed of a series of tags, each tag represents a specific element. For example, the <!-- raw HTML omitted --> tag defines the webpage title, the <!-- raw HTML omitted --> tag defines a secondary title, and the <!-- raw HTML omitted --> tag defines paragraph text. Through the clever combination of these tags, developers can create rich, hierarchical webpage layouts. HTML&rsquo;s flexibility and ease of learning make it an introductory language for web development, providing users with a clear and structured browsing experience.</p>
+<h3 id="css">CSS</h3>
+<p><strong>CSS (Cascading Style Sheets)</strong> is the language for defining the style and layout of web pages, making them more visually appealing and user-friendly. CSS functionalities include controlling webpage colors, fonts, backgrounds, borders, and other visual effects. By defining style rules, CSS unifies the appearance and arrangement of different elements, achieving a consistent design style. The continuous development and expanding features of CSS enable developers to have finer control over webpage appearance, providing an enhanced user experience.</p>
+<h3 id="javascript">JavaScript</h3>
+<p><strong>JavaScript</strong> is a powerful dynamic programming language used for implementing web page interactions and dynamic effects. It can manipulate the Document Object Model (DOM), enabling real-time updates by accessing and modifying webpage elements&rsquo; content and attributes. JavaScript not only provides users with rich interactive experiences but also facilitates various functionalities such as animations, data validation, and user feedback. Its flexibility and widespread application make JavaScript an indispensable part of modern web development, offering developers a vibrant toolbox for building dynamic user interfaces.</p>
+<h3 id="41-front-end-frameworks">4.1 Front-End Frameworks</h3>
+<p>Front-end frameworks are tools for building web pages, providing a set of predefined components and templates to help developers construct web pages quickly and efficiently. Front-end frameworks assist developers in:</p>
+<ul>
+<li>
+<p><strong>Improving Development Efficiency:</strong> Using predefined components and templates reduces code volume, enhancing development efficiency.</p>
+</li>
+<li>
+<p><strong>Enhancing Code Quality:</strong> Frameworks typically offer best practices, helping developers write more standardized and robust code.</p>
+</li>
+<li>
+<p><strong>Maintaining Code:</strong> Frameworks often provide tools and features that make it easier for developers to maintain code.</p>
+</li>
+</ul>
+<h3 id="42-introduction-to-leading-front-end-frameworks">4.2 Introduction to Leading Front-End Frameworks:</h3>
+<p><strong>React:</strong> Developed by Facebook, React is one of the most popular front-end frameworks. React features:</p>
+<ul>
+<li>
+<p>Efficiency: React employs virtual DOM technology, effectively reducing DOM operations and improving page rendering speed.</p>
+</li>
+<li>
+<p>Flexibility: React adopts a component-based design, allowing the page to be divided into small components for easy maintenance and extension.</p>
+</li>
+<li>
+<p>Active Community: React boasts a large community and abundant resources, offering various support and assistance for developers.</p>
+</li>
+</ul>
+<p><strong>Angular:</strong> Developed by Google, Angular is a powerful full-stack framework. Angular features:</p>
+<ul>
+<li>
+<p>Powerful Features: Angular provides a complete solution, including routing, data binding, dependency injection, etc., catering to the development needs of large and complex projects.</p>
+</li>
+<li>
+<p>Ease of Learning: Angular offers clear documentation and tutorials, helping developers quickly learn and master the framework.</p>
+</li>
+<li>
+<p>Active Community: Angular has a large community and rich resources, providing support and assistance to developers.</p>
+</li>
+</ul>
+<p><strong>Vue:</strong> Developed by Evan You, Vue is a lightweight and user-friendly framework. Vue features:</p>
+<ul>
+<li>
+<p>Lightweight: Vue has a small footprint and is easy to learn and use.</p>
+</li>
+<li>
+<p>User-Friendly: Vue&rsquo;s syntax is concise and understandable, allowing even beginners to quickly grasp it.</p>
+</li>
+<li>
+<p>Flexibility: Vue adopts a component-based design, facilitating maintenance and extension.</p>
+</li>
+</ul>
+<h2 id="5-front-end-development-technologies">5. Front-end Development Technologies</h2>
+<h3 id="typescript">TypeScript</h3>
+<p><strong>TypeScript</strong> is a superset language built on top of JavaScript. It introduces a powerful type system, providing developers with a more robust and reliable coding experience through features like type-checking. Compared to traditional JavaScript, TypeScript&rsquo;s type system helps capture potential code errors, improve code maintainability, and streamline team collaboration. By introducing static typing, TypeScript offers stronger support for the development of large projects and complex systems, providing developers with more tools and assurances to ensure code quality and maintainability.</p>
+<h3 id="nodejs">Node.js</h3>
+<p><strong>Node.js</strong> is a JavaScript runtime environment based on the Chrome V8 engine, designed specifically for executing JavaScript code on the server side. The advent of Node.js significantly expanded the application scope of JavaScript beyond the browser. With Node.js, developers can build high-performance web servers, network applications, and real-time applications, effortlessly handling concurrent requests using JavaScript. Node.js&rsquo; non-blocking I/O and event-driven features make it an ideal choice for handling a large number of requests and efficiently utilizing system resources. It provides developers with flexible and powerful tools, making JavaScript a full-stack development language and driving the evolution of modern web applications.</p>
+<h3 id="nextjs">Next.js</h3>
+<p><strong>Next.js</strong> is a front-end development framework built on top of <strong>React</strong>, aiming to provide an outstanding development experience and performance optimization. In comparison to traditional single-page applications, Next.js introduces the concepts of server-side rendering (SSR) and static site generation (SSG), enabling faster application loading and contributing to improved performance and search engine optimization (SEO).</p>
+<p>Built on the foundations of React and Node.js, Next.js offers a comprehensive solution for front-end development. By integrating React&rsquo;s component-based development and Node.js&rsquo; server-side execution, Next.js not only simplifies the development process of front-end applications but also achieves significant improvements in performance and user experience.</p>
+<h2 id="6-my-perspective-mastering-front-end-development-comes-with-many-advantages">6. My Perspective: Mastering Front-end Development Comes with Many Advantages:</h2>
+<p>Compared to backend development, the learning curve for front-end development is relatively smooth, as it mainly involves fundamental technologies such as HTML, CSS, and JavaScript. This means smaller technological changes and less frequent need to learn new languages and technologies. Proficiency in mainstream frameworks like React can bring more job opportunities, as these frameworks are widely used in the industry, and their underlying languages remain HTML, CSS, and JavaScript, ensuring a certain level of technological stability. This allows front-end engineers to deepen their expertise without being overwhelmed by rapid technological changes, making it relatively easy to keep up with industry developments.</p>
+<p>With the increasing popularity of Node.js and Next.js, front-end developers can even seamlessly transition to full-time development using JavaScript through these technologies. Node.js enables JavaScript to run on the server side, and Next.js provides powerful tools and frameworks, supporting server-side rendering and static site generation, further expanding the career field for front-end engineers. The rise of these technologies provides front-end developers with more development opportunities, enabling them to participate more comprehensively in project building and management, thereby enhancing their competitiveness in the job market. Therefore, learning front-end development is not just about acquiring a skill but establishing a solid foundation in the constantly adapting and evolving technological environment.</p>
+<h2 id="7-trends-and-development-directions-in-front-end-development">7. Trends and Development Directions in Front-end Development</h2>
+<h3 id="71-widespread-use-of-react">7.1 Widespread Use of React</h3>
+<p>In today&rsquo;s front-end development landscape, React stands out as one of the most widely used frameworks. It boasts a large and active community in the open-source community, providing rich resources and support. Developers and companies choose React as their preferred framework, not only due to its flexibility and highly componentized development pattern but also because of the continuous support from Facebook, ensuring the stability and ongoing updates of React. This makes React an ideal choice for building modern, maintainable large-scale applications.</p>
+<h3 id="72-3d-development">7.2 3D Development</h3>
+<p>As virtual reality and augmented reality technologies continue to advance, front-end development is witnessing a new trend. <strong>3D development</strong> becomes a crucial direction in the front-end field, providing users with more immersive interactive experiences. The development of this trend is expected to drive the creation of browsers and tools that focus more on 3D experiences, offering developers a broader space for development. This implies that front-end developers may need to continuously learn and adapt to new technologies to meet users&rsquo; higher-level visual and interactive demands.</p>
+<h3 id="73-rise-of-the-metaverse">7.3 Rise of the Metaverse</h3>
+<p><strong>The metaverse</strong> is considered a crucial development direction for the future of the internet, bringing new opportunities to front-end development. Developers have the chance to contribute to the construction of the metaverse, offering users a more realistic and interactive virtual world experience. Innovations like Apple&rsquo;s Vision PR and Meta&rsquo;s metaverse technology are expected to bring front-end development into a deeper realm of 3D development. Although React itself is not focused on 3D graphics, its flexibility and robust ecosystem provide possibilities for integrating other libraries specialized in 3D graphics (such as Three.js). In the future, with the wider adoption of 3D browsers, React is likely to adapt to this trend, or new tools and frameworks supporting 3D development may emerge, compatible with React. This suggests that the field of front-end development in the era of the metaverse will become more diverse and challenging, offering developers exciting prospects for development.</p>
+<h2 id="8-summary">8. Summary</h2>
+<p>In conclusion, the evolution of front-end technology is often driven by market demands and emerging technologies. If 3D becomes a mainstream trend, React or its derivatives may adjust to accommodate this change. The future development will depend on technological innovation, the needs of the developer community, and the market&rsquo;s acceptance of emerging technologies.</p>
+
+
+                
+
+                
+                <hr>
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2024/01/28/microservices-architecture-empowering-online-banking-services/" data-toggle="tooltip" data-placement="top" title="Microservices Architecture Empowering Online Banking Services: Secure, Efficient, and Scalable">&larr;
+                            Previous Post</a>
+                    </li>
+                    
+                    
+                </ul>
+                
+                
+
+
+
+            </div>
+
+            
+            
+            <div class="
+                col-lg-2 col-lg-offset-0
+                visible-lg-block
+                sidebar-container
+                catalog-container">
+                <div class="side-catalog">
+                    <hr class="hidden-sm hidden-xs">
+                    <h5>
+                        <a class="catalog-toggle" href="#">CATALOG</a>
+                    </h5>
+                    <ul class="catalog-body"></ul>
+                </div>
+            </div>
+            
+
+            
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <a href="/tags/technology" title="technology">
+                            technology
+                        </a>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+                </section>
+                
+
+                
+                
+                <section>
+                    <hr>
+                    <h5>FRIENDS</h5>
+                    <ul class="list-inline">
+                        
+                        <li><a target="_blank" href="https://nzmarie.com/blog">NZ Marie&#39;s blog</a></li>
+                        
+                    </ul>
+                </section>
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">                  
+                    
+                    <li>
+                        <a href="mailto:nzlouis.com@gmail.com">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		           
+                    
+
+                    
+                    <li>
+                        <a target="_blank" href="https://github.com/ailouislu">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		            
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://www.linkedin.com/in/ailouis">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		           
+                    
+                    
+                    
+                    
+                    
+            
+            
+            
+             </ul>
+		        <p class="copyright text-muted">
+                    Copyright &copy; NZ Louis&#39; Blog 2024
+                    <br>
+                     by <a href="https://nzlouis.com">NZ Louis</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<script>
+    function loadAsync(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+
+
+
+
+
+<script>
+    
+    if($('#tag_cloud').length !== 0){
+        loadAsync("/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+
+<script>
+    loadAsync("https://cdn.jsdelivr.net/npm/fastclick@1.0.6/lib/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+
+
+
+
+<script type="text/javascript">
+    function generateCatalog(selector) {
+
+        
+        
+        
+        
+            _containerSelector = 'div.post-container'
+        
+
+        
+        var P = $(_containerSelector), a, n, t, l, i, c;
+        a = P.find('h1,h2,h3,h4,h5,h6');
+
+        
+        $(selector).html('')
+
+        
+        a.each(function () {
+            n = $(this).prop('tagName').toLowerCase();
+            i = "#" + $(this).prop('id');
+            t = $(this).text();
+            c = $('<a href="' + i + '" rel="nofollow">' + t + '</a>');
+            l = $('<li class="' + n + '_nav"></li>').append(c);
+            $(selector).append(l);
+        });
+        return true;
+    }
+
+    generateCatalog(".catalog-body");
+
+    
+    $(".catalog-toggle").click((function (e) {
+        e.preventDefault();
+        $('.side-catalog').toggleClass("fold")
+    }))
+
+    
+
+
+    loadAsync("\/js\/jquery.nav.js", function () {
+        $('.catalog-body').onePageNav({
+            currentClass: "active",
+            changeHash: !1,
+            easing: "swing",
+            filter: "",
+            scrollSpeed: 700,
+            scrollOffset: 0,
+            scrollThreshold: .2,
+            begin: null,
+            end: null,
+            scrollChange: null,
+            padding: 80
+        });
+    });
+</script>
+
+
+
+
+
+
+</body>
+</html>

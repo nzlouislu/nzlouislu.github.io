@@ -6,8 +6,15 @@
     <description>Recent content on NZ Louis&#39; Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Feb 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.nzlouis.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Front-End Development in 2024: Trends and Future Directions</title>
+      <link>https://blog.nzlouis.com/2024/02/04/front-end-development-in-2024-trends-and-future-directions/</link>
+      <pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/2024/02/04/front-end-development-in-2024-trends-and-future-directions/</guid>
+      <description>Front-End Development in 2024: Trends and Future Directions 1. Introduction Welcome to this blog, where we delve deep into various aspects of front-end development. From fundamental concepts to emerging technology trends, we will explore personal insights and the future landscape of front-end development. Whether you are a beginner or an experienced developer, you will find valuable information here.&#xA;2. Overview of Front-End Development 2.1 Definition Front-end development, also known as Web front-end development, refers to the use of technologies such as HTML, CSS, and JavaScript to create the user interface of websites and applications.</description>
+    </item>
     <item>
       <title>Microservices Architecture Empowering Online Banking Services: Secure, Efficient, and Scalable</title>
       <link>https://blog.nzlouis.com/2024/01/28/microservices-architecture-empowering-online-banking-services/</link>
@@ -28,13 +35,6 @@
       <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://blog.nzlouis.com/2024/01/10/will-ai-replace-human-developers/</guid>
       <description>Abstract Will AI code robots steal programmers&amp;rsquo; jobs? Not so fast. This article proposes a novel &amp;ldquo;Five Levels of AI-ization&amp;rdquo; framework inspired by self-driving cars, predicting AI&amp;rsquo;s potential impact on software development. Expect AI to become a powerful partner, automating routine tasks and boosting efficiency, not replacing human creativity and strategic thinking. Dive in to explore the future of AI and developers, working together to build the next generation of software.</description>
-    </item>
-    <item>
-      <title>Vim Tips</title>
-      <link>https://blog.nzlouis.com/2024/01/05/vim-tips/</link>
-      <pubDate>Fri, 05 Jan 2024 11:00:00 +0000</pubDate>
-      <guid>https://blog.nzlouis.com/2024/01/05/vim-tips/</guid>
-      <description>&lt;h2 id=&#34;vim-graphical-cheat-sheet&#34;&gt;vim graphical cheat sheet&lt;/h2&gt;&#xA;&lt;p&gt;&#xD;&#xA;  &lt;img src=&#34;//img/2018-02-09-vim-tips/vi-vim-cheat-sheet.svg&#34; alt=&#34;&#34;&gt;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>

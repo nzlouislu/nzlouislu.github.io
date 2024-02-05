@@ -3,7 +3,55 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.nzlouis.com/categories/</loc>
-    <lastmod>2024-01-28T00:00:00+00:00</lastmod>
+    <lastmod>2024-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/tags/css/</loc>
+    <lastmod>2024-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/tags/front-end-development/</loc>
+    <lastmod>2024-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/tags/front-end-frameworks/</loc>
+    <lastmod>2024-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/2024/02/04/front-end-development-in-2024-trends-and-future-directions/</loc>
+    <lastmod>2024-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/tags/html/</loc>
+    <lastmod>2024-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/tags/javascript/</loc>
+    <lastmod>2024-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/tags/next.js/</loc>
+    <lastmod>2024-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/tags/node.js/</loc>
+    <lastmod>2024-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/</loc>
+    <lastmod>2024-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/post/</loc>
+    <lastmod>2024-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/tags/react-trends/</loc>
+    <lastmod>2024-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/tags/</loc>
+    <lastmod>2024-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/categories/tech/</loc>
+    <lastmod>2024-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/tags/technology/</loc>
+    <lastmod>2024-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/tags/typescript/</loc>
+    <lastmod>2024-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/tags/web-development-trends/</loc>
+    <lastmod>2024-02-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.nzlouis.com/tags/challenges/</loc>
     <lastmod>2024-01-28T00:00:00+00:00</lastmod>
@@ -20,13 +68,7 @@
     <loc>https://blog.nzlouis.com/2024/01/28/microservices-architecture-empowering-online-banking-services/</loc>
     <lastmod>2024-01-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.nzlouis.com/</loc>
-    <lastmod>2024-01-28T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.nzlouis.com/tags/online-banking/</loc>
-    <lastmod>2024-01-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.nzlouis.com/post/</loc>
     <lastmod>2024-01-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.nzlouis.com/tags/regulation/</loc>
@@ -35,16 +77,7 @@
     <loc>https://blog.nzlouis.com/tags/security/</loc>
     <lastmod>2024-01-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.nzlouis.com/tags/</loc>
-    <lastmod>2024-01-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.nzlouis.com/categories/tech/</loc>
-    <lastmod>2024-01-28T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.nzlouis.com/tags/technological-solution/</loc>
-    <lastmod>2024-01-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.nzlouis.com/tags/technology/</loc>
     <lastmod>2024-01-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.nzlouis.com/tags/user-experience/</loc>
@@ -130,18 +163,6 @@
   </url><url>
     <loc>https://blog.nzlouis.com/2024/01/10/will-ai-replace-human-developers/</loc>
     <lastmod>2024-01-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.nzlouis.com/tags/tips/</loc>
-    <lastmod>2024-01-05T11:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.nzlouis.com/categories/tips/</loc>
-    <lastmod>2024-01-05T11:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.nzlouis.com/tags/vim/</loc>
-    <lastmod>2024-01-05T11:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.nzlouis.com/2024/01/05/vim-tips/</loc>
-    <lastmod>2024-01-05T11:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.nzlouis.com/about/</loc>
   </url><url>
