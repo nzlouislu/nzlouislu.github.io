@@ -2,10 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.nzlouis.com/post/2024-02-11-react-a-powerhouse-in-front-end-development-for-job-security/</loc>
-    <lastmod>2024-02-11T00:00:00+00:00</lastmod>
+    <loc>https://blog.nzlouis.com/tags/automatic-batching-updates/</loc>
+    <lastmod>2024-02-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.nzlouis.com/categories/</loc>
+    <lastmod>2024-02-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/tags/concurrent-mode/</loc>
+    <lastmod>2024-02-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/tags/frontend-development/</loc>
+    <lastmod>2024-02-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/tags/frontend-trends/</loc>
+    <lastmod>2024-02-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/tags/new-hooks-api/</loc>
+    <lastmod>2024-02-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/</loc>
+    <lastmod>2024-02-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/post/</loc>
+    <lastmod>2024-02-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/tags/react/</loc>
+    <lastmod>2024-02-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/2024/02/17/react-18-typescript-powerful-combination-frontend/</loc>
+    <lastmod>2024-02-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/tags/</loc>
+    <lastmod>2024-02-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/categories/tech/</loc>
+    <lastmod>2024-02-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/tags/typescript/</loc>
+    <lastmod>2024-02-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/tags/web-development/</loc>
+    <lastmod>2024-02-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/post/2024-02-11-react-a-powerhouse-in-front-end-development-for-job-security/</loc>
     <lastmod>2024-02-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.nzlouis.com/tags/cross-platform-development/</loc>
@@ -23,28 +62,7 @@
     <loc>https://blog.nzlouis.com/tags/javascript/</loc>
     <lastmod>2024-02-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.nzlouis.com/</loc>
-    <lastmod>2024-02-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.nzlouis.com/post/</loc>
-    <lastmod>2024-02-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.nzlouis.com/tags/react/</loc>
-    <lastmod>2024-02-11T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.nzlouis.com/tags/server-side-rendering/</loc>
-    <lastmod>2024-02-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.nzlouis.com/tags/</loc>
-    <lastmod>2024-02-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.nzlouis.com/categories/tech/</loc>
-    <lastmod>2024-02-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.nzlouis.com/tags/typescript/</loc>
-    <lastmod>2024-02-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.nzlouis.com/tags/web-development/</loc>
     <lastmod>2024-02-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.nzlouis.com/tags/xr-applications/</loc>
