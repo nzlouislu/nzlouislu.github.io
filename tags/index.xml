@@ -6,8 +6,64 @@
     <description>Recent content in Tags on NZ Louis&#39; Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Feb 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.nzlouis.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automatic Batching Updates</title>
+      <link>https://blog.nzlouis.com/tags/automatic-batching-updates/</link>
+      <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/tags/automatic-batching-updates/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Concurrent Mode</title>
+      <link>https://blog.nzlouis.com/tags/concurrent-mode/</link>
+      <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/tags/concurrent-mode/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Frontend Development</title>
+      <link>https://blog.nzlouis.com/tags/frontend-development/</link>
+      <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/tags/frontend-development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Frontend Trends</title>
+      <link>https://blog.nzlouis.com/tags/frontend-trends/</link>
+      <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/tags/frontend-trends/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>New Hooks API</title>
+      <link>https://blog.nzlouis.com/tags/new-hooks-api/</link>
+      <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/tags/new-hooks-api/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>React</title>
+      <link>https://blog.nzlouis.com/tags/react/</link>
+      <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/tags/react/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TypeScript</title>
+      <link>https://blog.nzlouis.com/tags/typescript/</link>
+      <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/tags/typescript/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web Development</title>
+      <link>https://blog.nzlouis.com/tags/web-development/</link>
+      <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/tags/web-development/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Cross-Platform Development</title>
       <link>https://blog.nzlouis.com/tags/cross-platform-development/</link>
@@ -44,31 +100,10 @@
       <description></description>
     </item>
     <item>
-      <title>React</title>
-      <link>https://blog.nzlouis.com/tags/react/</link>
-      <pubDate>Sun, 11 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://blog.nzlouis.com/tags/react/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Server-Side Rendering</title>
       <link>https://blog.nzlouis.com/tags/server-side-rendering/</link>
       <pubDate>Sun, 11 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://blog.nzlouis.com/tags/server-side-rendering/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>TypeScript</title>
-      <link>https://blog.nzlouis.com/tags/typescript/</link>
-      <pubDate>Sun, 11 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://blog.nzlouis.com/tags/typescript/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Web Development</title>
-      <link>https://blog.nzlouis.com/tags/web-development/</link>
-      <pubDate>Sun, 11 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://blog.nzlouis.com/tags/web-development/</guid>
       <description></description>
     </item>
     <item>
