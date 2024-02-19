@@ -259,16 +259,31 @@ if (!doNotTrack) {
 <p>React, developed by Facebook, is a JavaScript library for building user interfaces. It utilizes a virtual DOM to enhance performance and provides a declarative programming approach for UI construction. React has become one of the most popular tools for building modern web applications.</p>
 <h3 id="11-advantages-of-react">1.1 Advantages of React</h3>
 <ul>
-<li>
-<p><strong>High Performance:</strong> React boosts performance by using a virtual DOM and provides performance optimization techniques. A prime example is the <code>useMemo</code> hook in React Hooks, which can be used for memoizing computations, preventing unnecessary recalculations. Below is an example using <code>useMemo</code> in a functional component:
-<code>useMemo</code> recalculates only when <code>someProp</code> changes, avoiding unnecessary computations and rendering.</p>
-</li>
-<li>
-<p><strong>Ease of Use:</strong> React&rsquo;s declarative programming makes it easy to learn and use.</p>
-</li>
-<li>
-<p><strong>Robust Community:</strong> React boasts a large and active community, offering abundant learning resources and support.</p>
-</li>
+<li><strong>High Performance:</strong> React boosts performance by using a virtual DOM and provides performance optimization techniques. A prime example is the <code>useMemo</code> hook in React Hooks, which can be used for memoizing computations, preventing unnecessary recalculations.
+Below is an example using <code>useMemo</code> in a functional component:
+<code>useMemo</code> recalculates only when <code>someProp</code> changes, avoiding unnecessary computations and rendering.</li>
+</ul>
+<pre tabindex="0"><code>import React, { useMemo, useState } from &#39;react&#39;;
+
+function MyComponent(props) {
+  const [someProp, setSomeProp] = useState(0);
+
+  const memoizedComputations = useMemo(() =&gt; {
+    // Perform some expensive computations here
+    const result = someExpensiveComputation(someProp);
+    return result;
+  }, [someProp]);
+
+  return (
+    &lt;div&gt;
+      {memoizedComputations}
+      &lt;button onClick={() =&gt; setSomeProp(someProp + 1)}&gt;Increment&lt;/button&gt;
+    &lt;/div&gt;
+  );
+}
+</code></pre><ul>
+<li><strong>Ease of Use:</strong> React&rsquo;s declarative programming makes it easy to learn and use.</li>
+<li><strong>Robust Community:</strong> React boasts a large and active community, offering abundant learning resources and support.</li>
 </ul>
 <h2 id="2-new-features-in-react-18">2. New Features in React 18</h2>
 <ul>
