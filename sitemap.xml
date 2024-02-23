@@ -11,6 +11,9 @@
     <loc>https://blog.nzlouis.com/tags/concurrent-mode/</loc>
     <lastmod>2024-02-17T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://blog.nzlouis.com/categories/frontend/</loc>
+    <lastmod>2024-02-17T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://blog.nzlouis.com/tags/frontend-development/</loc>
     <lastmod>2024-02-17T00:00:00+00:00</lastmod>
   </url><url>
@@ -33,9 +36,6 @@
     <lastmod>2024-02-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.nzlouis.com/tags/</loc>
-    <lastmod>2024-02-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.nzlouis.com/categories/tech/</loc>
     <lastmod>2024-02-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.nzlouis.com/tags/typescript/</loc>
@@ -114,6 +114,9 @@
     <lastmod>2024-01-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.nzlouis.com/tags/security/</loc>
+    <lastmod>2024-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/categories/tech/</loc>
     <lastmod>2024-01-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.nzlouis.com/tags/technological-solution/</loc>
