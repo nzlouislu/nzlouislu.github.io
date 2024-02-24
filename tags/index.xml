@@ -6,8 +6,78 @@
     <description>Recent content in Tags on NZ Louis&#39; Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Feb 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.nzlouis.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Backend Technology</title>
+      <link>https://blog.nzlouis.com/tags/backend-technology/</link>
+      <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/tags/backend-technology/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>C#</title>
+      <link>https://blog.nzlouis.com/tags/c#/</link>
+      <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/tags/c#/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cloud Computing</title>
+      <link>https://blog.nzlouis.com/tags/cloud-computing/</link>
+      <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/tags/cloud-computing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Java</title>
+      <link>https://blog.nzlouis.com/tags/java/</link>
+      <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/tags/java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Microservices</title>
+      <link>https://blog.nzlouis.com/tags/microservices/</link>
+      <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/tags/microservices/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Node.js</title>
+      <link>https://blog.nzlouis.com/tags/node.js/</link>
+      <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/tags/node.js/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programming Languages</title>
+      <link>https://blog.nzlouis.com/tags/programming-languages/</link>
+      <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/tags/programming-languages/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>https://blog.nzlouis.com/tags/python/</link>
+      <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Server-side Development</title>
+      <link>https://blog.nzlouis.com/tags/server-side-development/</link>
+      <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/tags/server-side-development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web Development</title>
+      <link>https://blog.nzlouis.com/tags/web-development/</link>
+      <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/tags/web-development/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Automatic Batching Updates</title>
       <link>https://blog.nzlouis.com/tags/automatic-batching-updates/</link>
@@ -55,13 +125,6 @@
       <link>https://blog.nzlouis.com/tags/typescript/</link>
       <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://blog.nzlouis.com/tags/typescript/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Web Development</title>
-      <link>https://blog.nzlouis.com/tags/web-development/</link>
-      <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://blog.nzlouis.com/tags/web-development/</guid>
       <description></description>
     </item>
     <item>
@@ -135,13 +198,6 @@
       <description></description>
     </item>
     <item>
-      <title>Node.js</title>
-      <link>https://blog.nzlouis.com/tags/node.js/</link>
-      <pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://blog.nzlouis.com/tags/node.js/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>React Trends</title>
       <link>https://blog.nzlouis.com/tags/react-trends/</link>
       <pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate>
@@ -181,13 +237,6 @@
       <link>https://blog.nzlouis.com/tags/future-trends/</link>
       <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://blog.nzlouis.com/tags/future-trends/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Microservices</title>
-      <link>https://blog.nzlouis.com/tags/microservices/</link>
-      <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://blog.nzlouis.com/tags/microservices/</guid>
       <description></description>
     </item>
     <item>
