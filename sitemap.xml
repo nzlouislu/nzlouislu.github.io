@@ -2,10 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.nzlouis.com/tags/automatic-batching-updates/</loc>
-    <lastmod>2024-02-17T00:00:00+00:00</lastmod>
+    <loc>https://blog.nzlouis.com/categories/backend/</loc>
+    <lastmod>2024-02-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/tags/backend-technology/</loc>
+    <lastmod>2024-02-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/2024/02/24/backend-tech-the-foundation-of-software/</loc>
+    <lastmod>2024-02-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/tags/c#/</loc>
+    <lastmod>2024-02-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.nzlouis.com/categories/</loc>
+    <lastmod>2024-02-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/tags/cloud-computing/</loc>
+    <lastmod>2024-02-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/tags/java/</loc>
+    <lastmod>2024-02-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/tags/microservices/</loc>
+    <lastmod>2024-02-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/tags/node.js/</loc>
+    <lastmod>2024-02-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/</loc>
+    <lastmod>2024-02-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/post/</loc>
+    <lastmod>2024-02-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/tags/programming-languages/</loc>
+    <lastmod>2024-02-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/tags/python/</loc>
+    <lastmod>2024-02-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/tags/server-side-development/</loc>
+    <lastmod>2024-02-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/tags/</loc>
+    <lastmod>2024-02-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/tags/web-development/</loc>
+    <lastmod>2024-02-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/tags/automatic-batching-updates/</loc>
     <lastmod>2024-02-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.nzlouis.com/tags/concurrent-mode/</loc>
@@ -23,25 +68,13 @@
     <loc>https://blog.nzlouis.com/tags/new-hooks-api/</loc>
     <lastmod>2024-02-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.nzlouis.com/</loc>
-    <lastmod>2024-02-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.nzlouis.com/post/</loc>
-    <lastmod>2024-02-17T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.nzlouis.com/tags/react/</loc>
     <lastmod>2024-02-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.nzlouis.com/2024/02/17/react-18-typescript-powerful-combination-frontend/</loc>
     <lastmod>2024-02-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.nzlouis.com/tags/</loc>
-    <lastmod>2024-02-17T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.nzlouis.com/tags/typescript/</loc>
-    <lastmod>2024-02-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.nzlouis.com/tags/web-development/</loc>
     <lastmod>2024-02-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.nzlouis.com/post/2024-02-11-react-a-powerhouse-in-front-end-development-for-job-security/</loc>
@@ -80,9 +113,6 @@
     <loc>https://blog.nzlouis.com/tags/next.js/</loc>
     <lastmod>2024-02-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.nzlouis.com/tags/node.js/</loc>
-    <lastmod>2024-02-04T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.nzlouis.com/tags/react-trends/</loc>
     <lastmod>2024-02-04T00:00:00+00:00</lastmod>
   </url><url>
@@ -99,9 +129,6 @@
     <lastmod>2024-01-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.nzlouis.com/tags/future-trends/</loc>
-    <lastmod>2024-01-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.nzlouis.com/tags/microservices/</loc>
     <lastmod>2024-01-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.nzlouis.com/2024/01/28/microservices-architecture-empowering-online-banking-services/</loc>
