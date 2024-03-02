@@ -6,8 +6,78 @@
     <description>Recent content in Tags on NZ Louis&#39; Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 24 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 02 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.nzlouis.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CSS</title>
+      <link>https://blog.nzlouis.com/tags/css/</link>
+      <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/tags/css/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Evolution of Technology</title>
+      <link>https://blog.nzlouis.com/tags/evolution-of-technology/</link>
+      <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/tags/evolution-of-technology/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Frontend Development</title>
+      <link>https://blog.nzlouis.com/tags/frontend-development/</link>
+      <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/tags/frontend-development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>HTML</title>
+      <link>https://blog.nzlouis.com/tags/html/</link>
+      <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/tags/html/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>JavaScript</title>
+      <link>https://blog.nzlouis.com/tags/javascript/</link>
+      <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/tags/javascript/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programming Languages</title>
+      <link>https://blog.nzlouis.com/tags/programming-languages/</link>
+      <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/tags/programming-languages/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software Development</title>
+      <link>https://blog.nzlouis.com/tags/software-development/</link>
+      <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/tags/software-development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web Design</title>
+      <link>https://blog.nzlouis.com/tags/web-design/</link>
+      <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/tags/web-design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web Development</title>
+      <link>https://blog.nzlouis.com/tags/web-development/</link>
+      <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/tags/web-development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web Technologies</title>
+      <link>https://blog.nzlouis.com/tags/web-technologies/</link>
+      <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/tags/web-technologies/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Backend Technology</title>
       <link>https://blog.nzlouis.com/tags/backend-technology/</link>
@@ -51,13 +121,6 @@
       <description></description>
     </item>
     <item>
-      <title>Programming Languages</title>
-      <link>https://blog.nzlouis.com/tags/programming-languages/</link>
-      <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://blog.nzlouis.com/tags/programming-languages/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Python</title>
       <link>https://blog.nzlouis.com/tags/python/</link>
       <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
@@ -72,13 +135,6 @@
       <description></description>
     </item>
     <item>
-      <title>Web Development</title>
-      <link>https://blog.nzlouis.com/tags/web-development/</link>
-      <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://blog.nzlouis.com/tags/web-development/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Automatic Batching Updates</title>
       <link>https://blog.nzlouis.com/tags/automatic-batching-updates/</link>
       <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
@@ -90,13 +146,6 @@
       <link>https://blog.nzlouis.com/tags/concurrent-mode/</link>
       <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://blog.nzlouis.com/tags/concurrent-mode/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Frontend Development</title>
-      <link>https://blog.nzlouis.com/tags/frontend-development/</link>
-      <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://blog.nzlouis.com/tags/frontend-development/</guid>
       <description></description>
     </item>
     <item>
@@ -156,13 +205,6 @@
       <description></description>
     </item>
     <item>
-      <title>JavaScript</title>
-      <link>https://blog.nzlouis.com/tags/javascript/</link>
-      <pubDate>Sun, 11 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://blog.nzlouis.com/tags/javascript/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Server-Side Rendering</title>
       <link>https://blog.nzlouis.com/tags/server-side-rendering/</link>
       <pubDate>Sun, 11 Feb 2024 00:00:00 +0000</pubDate>
@@ -174,20 +216,6 @@
       <link>https://blog.nzlouis.com/tags/xr-applications/</link>
       <pubDate>Sun, 11 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://blog.nzlouis.com/tags/xr-applications/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>CSS</title>
-      <link>https://blog.nzlouis.com/tags/css/</link>
-      <pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://blog.nzlouis.com/tags/css/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>HTML</title>
-      <link>https://blog.nzlouis.com/tags/html/</link>
-      <pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://blog.nzlouis.com/tags/html/</guid>
       <description></description>
     </item>
     <item>
