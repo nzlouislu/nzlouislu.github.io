@@ -6,8 +6,15 @@
     <description>Recent content on NZ Louis&#39; Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 24 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 02 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.nzlouis.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Trio of Frontend Development: JavaScript, HTML, and CSS</title>
+      <link>https://blog.nzlouis.com/2024/03/02/the-trio-of-frontend-development/</link>
+      <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/2024/03/02/the-trio-of-frontend-development/</guid>
+      <description>JavaScript, HTML, and CSS are the three most commonly used technologies in the field of frontend development, collectively forming the foundation of modern web pages. Despite their long history, these three technologies continue to play an indispensable role in web development. This article delves into the origins, history, current status, future trends, and the reasons why they remain crucial in today&amp;rsquo;s development landscape.&#xA;1. Origins of the Technologies 1.1 JavaScript JavaScript, born in 1995, developed by Brendan Eich at Netscape browser, initially named LiveScript, aimed to add dynamic effects to web pages.</description>
+    </item>
     <item>
       <title>Backend Technology: The Foundation of Software Construction</title>
       <link>https://blog.nzlouis.com/2024/02/24/backend-tech-the-foundation-of-software/</link>

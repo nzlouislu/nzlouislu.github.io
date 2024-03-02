@@ -2,6 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.nzlouis.com/categories/</loc>
+    <lastmod>2024-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/tags/css/</loc>
+    <lastmod>2024-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/tags/evolution-of-technology/</loc>
+    <lastmod>2024-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/categories/frontend/</loc>
+    <lastmod>2024-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/tags/frontend-development/</loc>
+    <lastmod>2024-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/tags/html/</loc>
+    <lastmod>2024-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/tags/javascript/</loc>
+    <lastmod>2024-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/</loc>
+    <lastmod>2024-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/post/</loc>
+    <lastmod>2024-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/tags/programming-languages/</loc>
+    <lastmod>2024-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/tags/software-development/</loc>
+    <lastmod>2024-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/tags/</loc>
+    <lastmod>2024-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/2024/03/02/the-trio-of-frontend-development/</loc>
+    <lastmod>2024-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/tags/web-design/</loc>
+    <lastmod>2024-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/tags/web-development/</loc>
+    <lastmod>2024-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.nzlouis.com/tags/web-technologies/</loc>
+    <lastmod>2024-03-02T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://blog.nzlouis.com/categories/backend/</loc>
     <lastmod>2024-02-24T00:00:00+00:00</lastmod>
   </url><url>
@@ -12,9 +60,6 @@
     <lastmod>2024-02-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.nzlouis.com/tags/c#/</loc>
-    <lastmod>2024-02-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.nzlouis.com/categories/</loc>
     <lastmod>2024-02-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.nzlouis.com/tags/cloud-computing/</loc>
@@ -29,37 +74,16 @@
     <loc>https://blog.nzlouis.com/tags/node.js/</loc>
     <lastmod>2024-02-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.nzlouis.com/</loc>
-    <lastmod>2024-02-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.nzlouis.com/post/</loc>
-    <lastmod>2024-02-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.nzlouis.com/tags/programming-languages/</loc>
-    <lastmod>2024-02-24T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.nzlouis.com/tags/python/</loc>
     <lastmod>2024-02-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.nzlouis.com/tags/server-side-development/</loc>
     <lastmod>2024-02-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.nzlouis.com/tags/</loc>
-    <lastmod>2024-02-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.nzlouis.com/tags/web-development/</loc>
-    <lastmod>2024-02-24T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.nzlouis.com/tags/automatic-batching-updates/</loc>
     <lastmod>2024-02-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.nzlouis.com/tags/concurrent-mode/</loc>
-    <lastmod>2024-02-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.nzlouis.com/categories/frontend/</loc>
-    <lastmod>2024-02-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.nzlouis.com/tags/frontend-development/</loc>
     <lastmod>2024-02-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.nzlouis.com/tags/frontend-trends/</loc>
@@ -92,22 +116,13 @@
     <loc>https://blog.nzlouis.com/tags/hooks/</loc>
     <lastmod>2024-02-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.nzlouis.com/tags/javascript/</loc>
-    <lastmod>2024-02-11T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.nzlouis.com/tags/server-side-rendering/</loc>
     <lastmod>2024-02-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.nzlouis.com/tags/xr-applications/</loc>
     <lastmod>2024-02-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.nzlouis.com/tags/css/</loc>
-    <lastmod>2024-02-04T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.nzlouis.com/2024/02/04/front-end-development-in-2024-trends-and-future-directions/</loc>
-    <lastmod>2024-02-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.nzlouis.com/tags/html/</loc>
     <lastmod>2024-02-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.nzlouis.com/tags/next.js/</loc>
