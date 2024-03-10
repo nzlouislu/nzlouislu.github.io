@@ -6,8 +6,64 @@
     <description>Recent content in Tags on NZ Louis&#39; Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 02 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 10 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.nzlouis.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java</title>
+      <link>https://blog.nzlouis.com/tags/java/</link>
+      <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/tags/java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Java Ecosystem</title>
+      <link>https://blog.nzlouis.com/tags/java-ecosystem/</link>
+      <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/tags/java-ecosystem/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programming Languages</title>
+      <link>https://blog.nzlouis.com/tags/programming-languages/</link>
+      <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/tags/programming-languages/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>https://blog.nzlouis.com/tags/python/</link>
+      <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software Development</title>
+      <link>https://blog.nzlouis.com/tags/software-development/</link>
+      <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/tags/software-development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spring</title>
+      <link>https://blog.nzlouis.com/tags/spring/</link>
+      <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/tags/spring/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spring Framework</title>
+      <link>https://blog.nzlouis.com/tags/spring-framework/</link>
+      <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/tags/spring-framework/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Technology Trends</title>
+      <link>https://blog.nzlouis.com/tags/technology-trends/</link>
+      <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/tags/technology-trends/</guid>
+      <description></description>
+    </item>
     <item>
       <title>CSS</title>
       <link>https://blog.nzlouis.com/tags/css/</link>
@@ -41,20 +97,6 @@
       <link>https://blog.nzlouis.com/tags/javascript/</link>
       <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
       <guid>https://blog.nzlouis.com/tags/javascript/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Programming Languages</title>
-      <link>https://blog.nzlouis.com/tags/programming-languages/</link>
-      <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://blog.nzlouis.com/tags/programming-languages/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Software Development</title>
-      <link>https://blog.nzlouis.com/tags/software-development/</link>
-      <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://blog.nzlouis.com/tags/software-development/</guid>
       <description></description>
     </item>
     <item>
@@ -100,13 +142,6 @@
       <description></description>
     </item>
     <item>
-      <title>Java</title>
-      <link>https://blog.nzlouis.com/tags/java/</link>
-      <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://blog.nzlouis.com/tags/java/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Microservices</title>
       <link>https://blog.nzlouis.com/tags/microservices/</link>
       <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
@@ -118,13 +153,6 @@
       <link>https://blog.nzlouis.com/tags/node.js/</link>
       <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://blog.nzlouis.com/tags/node.js/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Python</title>
-      <link>https://blog.nzlouis.com/tags/python/</link>
-      <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://blog.nzlouis.com/tags/python/</guid>
       <description></description>
     </item>
     <item>
