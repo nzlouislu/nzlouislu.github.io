@@ -6,8 +6,15 @@
     <description>Recent content on NZ Louis&#39; Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 02 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 10 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.nzlouis.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java and Spring: In-Depth Analysis and Comprehensive Understanding</title>
+      <link>https://blog.nzlouis.com/2024/03/10/java-and-spring-in-depth-understanding/</link>
+      <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/2024/03/10/java-and-spring-in-depth-understanding/</guid>
+      <description>1. Evolution and Features of Java 1.1 Historical Overview The history of Java dates back to the early 1990s when it was introduced by Sun Microsystems. At that time, the software development field faced a critical cross-platform challenge, and Java emerged to address this issue. In 1996, Java 1.0 was officially released, introducing cross-platform capabilities and object-oriented programming features, providing developers with a new experience. The object-oriented paradigm endowed Java code with higher maintainability and scalability, while the cross-platform nature, facilitated by the introduction of the Java Virtual Machine (JVM), successfully realized the &amp;ldquo;write once, run anywhere&amp;rdquo; concept.</description>
+    </item>
     <item>
       <title>The Trio of Frontend Development: JavaScript, HTML, and CSS</title>
       <link>https://blog.nzlouis.com/2024/03/02/the-trio-of-frontend-development/</link>

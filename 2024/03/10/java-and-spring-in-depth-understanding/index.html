@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <meta property="og:site_name" content="NZ Louis&#39; Blog">
+    <meta property="og:type" content="article">
+
+    
+    <meta property="og:image" content="/img/javaSpring.png">
+    <meta property="twitter:image" content="/img/javaSpring.png" />
+    
+
+    
+    <meta name="title" content="Java and Spring: In-Depth Analysis and Comprehensive Understanding" />
+    <meta property="og:title" content="Java and Spring: In-Depth Analysis and Comprehensive Understanding" />
+    <meta property="twitter:title" content="Java and Spring: In-Depth Analysis and Comprehensive Understanding" />
+    
+
+    
+    <meta name="description" content="An in-depth analysis of the Java programming language and the Spring framework, covering their evolution, features, pros and cons, and the challenges they face in the ever-changing landscape of technology.">
+    <meta property="og:description" content="An in-depth analysis of the Java programming language and the Spring framework, covering their evolution, features, pros and cons, and the challenges they face in the ever-changing landscape of technology." />
+    <meta property="twitter:description" content="An in-depth analysis of the Java programming language and the Spring framework, covering their evolution, features, pros and cons, and the challenges they face in the ever-changing landscape of technology." />
+    
+
+    
+    <meta property="twitter:card" content="summary" />
+    
+    
+
+    <meta name="keyword"  content="NZ Louis, Louis Lu, Louis, Louis&#39; Blog, blog, Web, PaaS, Istio, Kubernetes, Microservice">
+    <link rel="shortcut icon" href="/img/l.ico">
+
+    <title>Java and Spring: In-Depth Analysis and Comprehensive Understanding | NZ Louis&#39; Blog</title>
+
+    <link rel="canonical" href="/2024/03/10/java-and-spring-in-depth-understanding/">
+
+    
+    
+    
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    
+    <link rel="stylesheet" href="/css/hugo-theme-cleanwhite.min.css">
+
+    
+    <link rel="stylesheet" href="/css/zanshang.css">
+
+    
+    <link rel="stylesheet" href="/css/font-awesome.all.min.css">
+
+    
+    
+
+    
+    <script src="/js/jquery.min.js"></script>
+
+    
+    <script src="/js/bootstrap.min.js"></script>
+
+    
+    <script src="/js/hux-blog.min.js"></script>
+
+    
+    <script src="/js/lazysizes.min.js"></script>
+
+    
+    
+
+</head>
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TX6F6B0GN9"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-TX6F6B0GN9', { 'anonymize_ip': false });
+}
+</script>
+
+
+
+
+
+
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+
+    <div class="container-fluid">
+        
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">NZ Louis&#39; Blog</a>
+        </div>
+
+        
+        
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">All Posts</a>
+                    </li>
+                    
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    
+                    <li>
+                        <a href="/categories/tech">Tech</a>
+                    </li>
+                    <li>
+                        <a href="/categories/frontend">Front-End</a>
+                    </li>
+                    <li>
+                        <a href="/categories/backend">Back-End</a>
+                    </li>
+                    <li>
+                        <a href="/categories/life">Life</a>
+                    </li>
+		            
+                        <li><a href="/archive/">ARCHIVE</a></li>
+                    
+                    <li>
+                        <a href="https://nzlouis.com" >About</a>
+                    </li>
+		            <li>
+                        <a href="/search"><i class="fa fa-search"></i></a>
+		           </li>
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+    
+</nav>
+<script>
+    
+    
+    
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        
+            $navbar.className = " ";
+            
+            setTimeout(function(){
+                
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+
+
+<style type="text/css">
+    header.intro-header {
+        background-image: url('/img/javaSpring.png')
+    }
+</style>
+
+<header class="intro-header" >
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/java" title="Java">
+                            Java
+                        </a>
+                        
+                        <a class="tag" href="/tags/spring" title="Spring">
+                            Spring
+                        </a>
+                        
+                        <a class="tag" href="/tags/programming-languages" title="Programming Languages">
+                            Programming Languages
+                        </a>
+                        
+                        <a class="tag" href="/tags/software-development" title="Software Development">
+                            Software Development
+                        </a>
+                        
+                        <a class="tag" href="/tags/java-ecosystem" title="Java Ecosystem">
+                            Java Ecosystem
+                        </a>
+                        
+                        <a class="tag" href="/tags/spring-framework" title="Spring Framework">
+                            Spring Framework
+                        </a>
+                        
+                        <a class="tag" href="/tags/technology-trends" title="Technology Trends">
+                            Technology Trends
+                        </a>
+                        
+                        <a class="tag" href="/tags/python" title="Python">
+                            Python
+                        </a>
+                        
+                    </div>
+                    <h1>Java and Spring: In-Depth Analysis and Comprehensive Understanding</h1>
+                    <h2 class="subheading">Exploring the Evolution, Features, and Challenges in Java and the Spring Framework</h2>
+                    <span class="meta">
+                        
+                            Posted by 
+                            
+                                Louis Lu
+                             
+                            on 
+                            Sunday, March 10, 2024
+                            
+                            
+                            
+                            
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+<article>
+    <div class="container">
+        <div class="row">
+
+            
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+                
+                <h2 id="1-evolution-and-features-of-java">1. Evolution and Features of Java</h2>
+<h3 id="11-historical-overview">1.1 Historical Overview</h3>
+<p>The history of Java dates back to the early 1990s when it was introduced by Sun Microsystems. At that time, the software development field faced a critical cross-platform challenge, and Java emerged to address this issue. In 1996, Java 1.0 was officially released, introducing cross-platform capabilities and object-oriented programming features, providing developers with a new experience. The object-oriented paradigm endowed Java code with higher maintainability and scalability, while the cross-platform nature, facilitated by the introduction of the Java Virtual Machine (JVM), successfully realized the &ldquo;write once, run anywhere&rdquo; concept.</p>
+<p>Over time, Java has continued to evolve, with each new version bringing anticipated features to developers. The release of Java 2 marked the introduction of crucial components such as the collection framework and the Swing graphical user interface toolkit, significantly expanding Java&rsquo;s capabilities. The addition of new features like lambda expressions and the modular system further enhanced development efficiency. This continuous evolution has kept Java at the forefront of the software development field.</p>
+<h3 id="12-version-evolution">1.2 Version Evolution</h3>
+<p>The evolution of Java versions can be seen as a proactive response to the needs of the vast programming community. Currently, Java 17 serves as the latest long-term support version, introducing not only new language features but also continuously improving performance and security, enhancing user experience. With each iteration, Java meets modern programming demands by adding new APIs, improving existing features, and addressing security vulnerabilities.</p>
+<p>The release of each version reflects an understanding of challenges in software development, striving to provide developers with better tools and language features. Java&rsquo;s ecosystem continues to expand, offering developers more choices and increased flexibility in building various applications.</p>
+<h3 id="13-in-depth-analysis-of-features">1.3 In-Depth Analysis of Features</h3>
+<p><strong>Object-Oriented:</strong>
+Java&rsquo;s pure object-oriented programming paradigm makes software development more modular and maintainable. Through the abstraction of classes and objects, developers can organize and manage code more naturally, improving code readability and reusability. This approach not only makes the code more understandable but also provides a solid foundation for collaborative development in complex projects.</p>
+<p><strong>Cross-Platform:</strong>
+Java achieves cross-platform compatibility through the concept of a virtual machine, crucial for deploying applications on different operating systems. The &ldquo;write once, run anywhere&rdquo; feature significantly simplifies the development and maintenance of cross-platform applications, offering developers a broader range of application scenarios. Java&rsquo;s cross-platform capability provides greater flexibility, reducing the complexity of developing for different platforms.</p>
+<p><strong>Strong Typing:</strong>
+Java&rsquo;s strong typing system, by checking type errors at compile time, enhances code stability. This feature enables developers to discover potential issues earlier and, with the help of the compiler, reduces the likelihood of runtime errors, improving code quality. The advantage of a strong typing system lies in providing stricter type checks, reducing potential errors at runtime, contributing to the construction of more robust and reliable software systems.</p>
+<p><strong>Automatic Memory Management:</strong>
+Java&rsquo;s garbage collection mechanism significantly relieves developers of the burden of memory management. By automatically reclaiming unused objects, developers are spared the manual handling of memory release details, reducing the likelihood of memory leaks and other memory-related issues. This makes Java programs more robust, decreasing development cycles and maintenance costs. The automation of garbage collection provides developers with more focus on business logic, simultaneously reducing the risk of program errors, making Java applications more stable and reliable.</p>
+<h2 id="2-rise-and-features-of-the-spring-framework">2. Rise and Features of the Spring Framework</h2>
+<h3 id="21-background-of-inception">2.1 Background of Inception</h3>
+<p>The birth of the Spring framework was a response to the challenges faced in traditional enterprise-level Java development. In 2003, Rod Johnson created Spring with the goal of simplifying the development process of Java applications. Spring introduced several new concepts such as dependency injection and aspect-oriented programming, aiming to improve code maintainability and scalability.</p>
+<p>As time progressed, the Spring framework continued to evolve. From the initial Spring 1.0 to the current Spring 5, each version brought improvements in functionality and performance. The introduction of tools like Spring Boot and Spring Cloud significantly enhanced developers&rsquo; efficiency in building and deploying applications.</p>
+<h3 id="22-version-updates">2.2 Version Updates</h3>
+<p>The version updates of the Spring framework have consistently adhered to the principle of &ldquo;continuous innovation.&rdquo; Each version, from Spring 1.0 to Spring 5, has made improvements on different levels. The integration of tools like Spring Boot and Spring Cloud enables developers to build and deploy applications more efficiently.</p>
+<p>The evolution of versions reflects sensitivity to new technologies and programming paradigms. Each version strives to maintain compatibility while introducing more practical features to meet the evolving demands of development.</p>
+<h3 id="23-exploration-of-features">2.3 Exploration of Features</h3>
+<ul>
+<li>
+<p><strong>Dependency Injection (DI):</strong> Spring achieves loose coupling between components through dependency injection, making collaboration between components more flexible. This loose coupling makes code easier to test, maintain, and extend. Through DI, relationships between objects are dynamically established by the container at runtime, providing developers with greater flexibility.</p>
+</li>
+<li>
+<p><strong>Aspect-Oriented Programming (AOP):</strong> Spring supports AOP, allowing modularization of cross-cutting concerns by intercepting business logic at different levels. This design philosophy makes the code more modular and maintainable. The introduction of AOP enables developers to better handle cross-cutting concerns, improving code reusability and maintainability.</p>
+</li>
+<li>
+<p><strong>Container:</strong> Spring&rsquo;s Inversion of Control (IoC) container manages and organizes components in the application, providing a loosely coupled way to manage the lifecycle of components. Through the IoC container, developers can easily assemble and manage objects, reducing code complexity and improving system scalability. The IoC container makes it easier for developers to focus on core business logic.</p>
+</li>
+<li>
+<p><strong>Simplified Development:</strong> Spring Boot further simplifies the development process of Java applications. By adopting a convention-over-configuration approach, Spring Boot reduces the workload for developers. This development philosophy allows developers to focus more on core business logic rather than intricate configurations. The emergence of Spring Boot enables developers to start projects quickly, rapidly building application frameworks and improving development efficiency.</p>
+</li>
+<li>
+<p><strong>Data Access Support:</strong> The Spring framework provides robust and flexible data access support by integrating various data access technologies such as JDBC, Hibernate, MyBatis, etc. Developers can easily handle database operations through Spring&rsquo;s data access abstraction layer, making it easier to switch and maintain different data sources, providing developers with a variety of choices.</p>
+</li>
+<li>
+<p><strong>Transaction Management:</strong> Spring&rsquo;s transaction management mechanism is another notable feature. Through declarative transaction management, developers can conveniently define transaction boundaries, ensuring data consistency and integrity. This allows developers to handle transactions in a more relaxed manner while enjoying the powerful transaction support provided by the Spring framework.</p>
+</li>
+<li>
+<p><strong>Security:</strong> The Spring framework emphasizes application security, offering comprehensive security solutions. Through Spring Security, developers can seamlessly integrate authentication, authorization, and other security features, ensuring applications are protected from potential threats. This provides developers with a robust and scalable set of security tools, safeguarding application data and functionality.</p>
+</li>
+<li>
+<p><strong>Microservices Architecture Support:</strong> With the rise of microservices architecture, Spring framework, through components like Spring Cloud, provides convenient tools for developers to build distributed systems. Through various microservices-related features such as service registration and discovery, circuit breakers, configuration centers, etc., Spring makes it easier to build and maintain complex microservices architectures.</p>
+</li>
+<li>
+<p><strong>Reactive Programming:</strong> Responding to the increasing demand for asynchronous and reactive programming models, the Spring framework introduced support for Reactive programming. By integrating Project Reactor, Spring excels in handling high-concurrency and low-latency scenarios, providing developers with more choices for handling asynchronous operations.</p>
+</li>
+</ul>
+<p>These features collectively form the robust development ecosystem of the Spring framework, making it one of the preferred frameworks for enterprise-level Java development. Its flexibility, scalability, and powerful feature set provide developers with extensive and profound tools, helping them build efficient, maintainable, and secure applications. Moreover, the continuous innovation and evolution of the Spring framework lay a solid foundation for the future of Java development.</p>
+<h2 id="3-pros-and-cons-of-java-and-spring">3. Pros and Cons of Java and Spring</h2>
+<h3 id="31-advantages-of-java">3.1 Advantages of Java</h3>
+<ul>
+<li>
+<p><strong>Cross-Platform Capability:</strong> Java&rsquo;s cross-platform feature allows applications to run on different operating systems, greatly increasing flexibility and scalability. This feature means developers can write code once and run it on various platforms without the need to develop applications separately for each platform.</p>
+</li>
+<li>
+<p><strong>Rich Ecosystem:</strong> Java boasts a large developer community and an extensive third-party library, providing developers with a wealth of tools and resources that accelerate application development. This vast ecosystem includes various development frameworks, tools, and extensions, making Java a powerful and versatile development platform.</p>
+</li>
+<li>
+<p><strong>Strong Performance:</strong> With each version upgrade, Java&rsquo;s performance continues to improve, especially in JVM optimization, making it one of the preferred languages for handling large enterprise applications. High performance is crucial for enterprise-level applications dealing with a significant amount of data and requests.</p>
+</li>
+</ul>
+<h3 id="32-disadvantages-of-java">3.2 Disadvantages of Java</h3>
+<ul>
+<li>
+<p><strong>Relatively Slow Startup Time:</strong> Java applications typically have a longer startup time, which can be a challenge in scenarios where startup time sensitivity is crucial. Especially for lightweight applications or scenarios requiring fast startup, Java&rsquo;s relatively slow startup time may be considered a disadvantage.</p>
+</li>
+<li>
+<p><strong>High Memory Consumption:</strong> Java applications tend to occupy a relatively large amount of memory during runtime. Although memory costs have decreased with hardware advancements, in resource-constrained environments or cloud computing scenarios, Java&rsquo;s memory consumption remains a consideration.</p>
+</li>
+</ul>
+<h3 id="33-advantages-of-spring">3.3 Advantages of Spring</h3>
+<ul>
+<li>
+<p><strong>Loose Coupling:</strong> Through dependency injection and aspect-oriented programming, Spring achieves loose coupling between components, enhancing code flexibility and maintainability. This design reduces the interdependence among modules, making the system more extensible and maintainable.</p>
+</li>
+<li>
+<p><strong>Rich Features:</strong> Spring provides a rich set of features, including transaction management, data access, message queues, etc., simplifying the development of enterprise-level applications. This feature integration allows developers to focus on implementing business logic without delving too deeply into lower-level technical details. The richness of Spring&rsquo;s features provides developers with more choices, making it easier to build complex applications.</p>
+</li>
+<li>
+<p><strong>Community Support:</strong> Due to its extensive community support, the Spring framework has widespread adoption and continuous updates. The community&rsquo;s activity provides developers with timely assistance and abundant resources, making it more user-friendly when using the Spring framework. Community support includes not only problem-solving but also rich tutorials, documentation, and development tools, offering developers comprehensive support.</p>
+</li>
+<li>
+<p><strong>Simplified Configuration:</strong> With the introduction of technologies like Spring Boot, configuration work is significantly simplified. By adopting a convention-over-configuration approach, Spring Boot reduces tedious manual configuration, providing default configurations that allow developers to focus more on the core business logic implementation.</p>
+</li>
+</ul>
+<h3 id="34-disadvantages-of-spring">3.4 Disadvantages of Spring</h3>
+<ul>
+<li>
+<p><strong>Learning Curve:</strong> For beginners, the learning curve of Spring may be relatively steep. Particularly when dealing with complex features and configurations, it may take some time to master the usage of the Spring framework. The powerful features and flexibility of the Spring framework introduce complexity, requiring developers to invest more time and effort in learning and understanding.</p>
+</li>
+<li>
+<p><strong>Potentially Complex Configuration (in some scenarios):</strong> Despite the introduction of Spring Boot to simplify configuration, in some complex scenarios, specific configurations may still be required. In some lightweight projects, a balance may need to be struck between configuration flexibility and simplicity.</p>
+</li>
+<li>
+<p><strong>Possibly Introducing Too Many Dependencies:</strong> While Spring framework provides rich functionality and modules, not all projects may require all features. Without proper constraints, developers may tend to introduce too many dependencies, leading to a large and cumbersome project. Therefore, careful consideration is needed during the initial architecture planning phase to avoid unnecessary complexity.</p>
+</li>
+</ul>
+<h2 id="4-threats-and-challenges-faced-by-java">4. Threats and Challenges Faced by Java</h2>
+<h3 id="41-rise-of-emerging-languages">4.1 Rise of Emerging Languages</h3>
+<p>As time progresses, emerging programming languages like Kotlin, Scala, etc., are gaining prominence. They attract developers&rsquo; attention by introducing new syntax features and more concise code styles. While Java has a robust ecosystem and numerous libraries, it faces the challenge of the attractiveness of these emerging languages.</p>
+<p>The rise of emerging languages may stem from their more modern and concise syntax, as well as better adaptability to certain problem domains. Developers may lean towards these languages for the sake of trying new things, improving development efficiency, or seeking higher performance. For Java, continuous innovation in language design, toolchains, etc., is required to maintain its appeal to developers.</p>
+<h3 id="42-popularity-of-microservices-architecture">4.2 Popularity of Microservices Architecture</h3>
+<p>The popularity of microservices architecture makes lightweight frameworks and languages more favorable. Some lightweight languages and frameworks like Node.js and Go are well-received for their efficient performance and quick startup time in building microservices. This shift might have an impact on Java&rsquo;s market share compared to traditional large-scale Java applications.</p>
+<p>The popularity of microservices architecture demands faster and more flexible development and deployment methods, posing a new challenge for Java. Java needs to adapt to the agility of microservices, possibly emphasizing the development of lightweight frameworks to meet the requirements of rapid iteration and deployment.</p>
+<h3 id="43-security-and-performance-challenges">4.3 Security and Performance Challenges</h3>
+<p>With the rapid development of cloud computing and big data, demands for security and performance are increasing. Some emerging programming languages and frameworks may focus more on optimization in these areas, and Java needs to continuously strive to adapt to these changes to ensure its competitiveness in terms of security and performance.</p>
+<p>Security has always been an important focus for Java, but with the evolving network environment and attack methods, stricter security requirements emerge. Java needs to strengthen support for the latest security standards, promptly fix potential vulnerabilities, and maintain its reputation for security.</p>
+<p>In terms of performance, Java needs to continue optimizing the JVM to handle scenarios with large-scale data and high-concurrency requests. Meanwhile, compared to some emerging languages that specialize in performance, Java may need more efforts to improve its performance in specific scenarios.</p>
+<h3 id="44-rise-of-ai-and-evolution-of-programming-languages">4.4 Rise of AI and Evolution of Programming Languages</h3>
+<p>With the continuous development of artificial intelligence (AI) technology, the demand for programming languages is gradually changing. Emerging AI development frameworks like TensorFlow and PyTorch focus more on applications in machine learning and deep learning. This poses a new challenge for traditional languages like Java, as languages like Python and Node.js are more popular in some AI application scenarios. Developers may prefer languages with better support and ecosystems in the field of AI when choosing a language. Java needs to strengthen its support for AI technologies to meet the future demands of the AI field.</p>
+<h2 id="5-conclusion">5. Conclusion</h2>
+<p>In conclusion, Java as a classic programming language and Spring as a crucial framework in its ecosystem are continuously evolving and adapting to new technological trends. Understanding their pros and cons, as well as the threats they face, helps developers make better choices for their technology stacks. Additionally, continuous learning and staying informed about changes in the tech industry are key to maintaining competitiveness. This article aims to provide readers with an in-depth and comprehensive understanding, guiding them through the vast world of Java and Spring, allowing them to navigate the technological waves with confidence.</p>
+
+
+                
+
+                
+                <hr>
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2024/03/02/the-trio-of-frontend-development/" data-toggle="tooltip" data-placement="top" title="The Trio of Frontend Development: JavaScript, HTML, and CSS">&larr;
+                            Previous Post</a>
+                    </li>
+                    
+                    
+                </ul>
+                
+                
+
+
+
+            </div>
+
+            
+            
+            <div class="
+                col-lg-2 col-lg-offset-0
+                visible-lg-block
+                sidebar-container
+                catalog-container">
+                <div class="side-catalog">
+                    <hr class="hidden-sm hidden-xs">
+                    <h5>
+                        <a class="catalog-toggle" href="#">CATALOG</a>
+                    </h5>
+                    <ul class="catalog-body"></ul>
+                </div>
+            </div>
+            
+
+            
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <a href="/tags/css" title="css">
+                            css
+                        </a>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <a href="/tags/front-end-development" title="front-end-development">
+                            front-end-development
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/front-end-frameworks" title="front-end-frameworks">
+                            front-end-frameworks
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/frontend-development" title="frontend-development">
+                            frontend-development
+                        </a>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <a href="/tags/html" title="html">
+                            html
+                        </a>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <a href="/tags/java" title="java">
+                            java
+                        </a>
+                        
+                        
+                        
+                        
+                        
+                        <a href="/tags/javascript" title="javascript">
+                            javascript
+                        </a>
+                        
+                        
+                        
+                        
+                        
+                        <a href="/tags/microservices" title="microservices">
+                            microservices
+                        </a>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <a href="/tags/node.js" title="node.js">
+                            node.js
+                        </a>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <a href="/tags/programming-languages" title="programming-languages">
+                            programming-languages
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/python" title="python">
+                            python
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/react" title="react">
+                            react
+                        </a>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <a href="/tags/software-development" title="software-development">
+                            software-development
+                        </a>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <a href="/tags/technology" title="technology">
+                            technology
+                        </a>
+                        
+                        
+                        
+                        
+                        
+                        <a href="/tags/typescript" title="typescript">
+                            typescript
+                        </a>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <a href="/tags/web-development" title="web-development">
+                            web-development
+                        </a>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+                </section>
+                
+
+                
+                
+                <section>
+                    <hr>
+                    <h5>FRIENDS</h5>
+                    <ul class="list-inline">
+                        
+                        <li><a target="_blank" href="https://nzmarie.com/blog">NZ Marie&#39;s blog</a></li>
+                        
+                    </ul>
+                </section>
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">                  
+                    
+                    <li>
+                        <a href="mailto:nzlouis.com@gmail.com">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		           
+                    
+
+                    
+                    <li>
+                        <a target="_blank" href="https://github.com/ailouislu">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		            
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://www.linkedin.com/in/ailouis">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		           
+                    
+                    
+                    
+                    
+                    
+            
+            
+            
+             </ul>
+		        <p class="copyright text-muted">
+                    Copyright &copy; NZ Louis&#39; Blog 2024
+                    <br>
+                     by <a href="https://nzlouis.com">NZ Louis</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<script>
+    function loadAsync(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+
+
+
+
+
+<script>
+    
+    if($('#tag_cloud').length !== 0){
+        loadAsync("/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+
+<script>
+    loadAsync("https://cdn.jsdelivr.net/npm/fastclick@1.0.6/lib/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+
+
+
+
+<script type="text/javascript">
+    function generateCatalog(selector) {
+
+        
+        
+        
+        
+            _containerSelector = 'div.post-container'
+        
+
+        
+        var P = $(_containerSelector), a, n, t, l, i, c;
+        a = P.find('h1,h2,h3,h4,h5,h6');
+
+        
+        $(selector).html('')
+
+        
+        a.each(function () {
+            n = $(this).prop('tagName').toLowerCase();
+            i = "#" + $(this).prop('id');
+            t = $(this).text();
+            c = $('<a href="' + i + '" rel="nofollow">' + t + '</a>');
+            l = $('<li class="' + n + '_nav"></li>').append(c);
+            $(selector).append(l);
+        });
+        return true;
+    }
+
+    generateCatalog(".catalog-body");
+
+    
+    $(".catalog-toggle").click((function (e) {
+        e.preventDefault();
+        $('.side-catalog').toggleClass("fold")
+    }))
+
+    
+
+
+    loadAsync("\/js\/jquery.nav.js", function () {
+        $('.catalog-body').onePageNav({
+            currentClass: "active",
+            changeHash: !1,
+            easing: "swing",
+            filter: "",
+            scrollSpeed: 700,
+            scrollOffset: 0,
+            scrollThreshold: .2,
+            begin: null,
+            end: null,
+            scrollChange: null,
+            padding: 80
+        });
+    });
+</script>
+
+
+
+
+
+
+</body>
+</html>
